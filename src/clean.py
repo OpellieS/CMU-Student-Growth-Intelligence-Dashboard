@@ -491,7 +491,10 @@ def write_data_dictionary() -> Path:
         ("graduates.csv", "graduate_count", "Graduated students from s003001/s003002/s003003."),
         ("nationality.csv", "is_international", "True for non-Thai non-administrative nationality codes."),
         ("over_program_students.csv", "over_program_rate", "over_program_students / current_students from s001010."),
+        ("transfer_students.csv", "transfer_in", "Students moving into a faculty/program through official transfer records from s001017."),
+        ("transfer_students.csv", "transfer_out", "Students moving out of a faculty/program through official transfer records from s001017."),
         ("transfer_students.csv", "net_transfer", "transfer_in - transfer_out from s001017."),
+        ("faculty_metrics", "transfer_out_rate", "Computed in the dashboard as transfer_out / current_students after matching faculty names."),
         ("all_stats_long.csv", "total_count", "Best-effort row total; usually the highest cN column except special risk tables."),
     ]
     df = pd.DataFrame(rows, columns=["table", "field", "definition"])

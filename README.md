@@ -21,25 +21,17 @@ https://api-statistic.reg.cmu.ac.th/v1/data/s001001?year=2569&semester=1&semeste
 
 Playwright is included only as a fallback if the official API becomes unavailable.
 
-## Setup
+## Deployment Options
+
+### A. Local run
+
+The repository includes cached raw and processed data, so a fresh clone can open the dashboard immediately.
 
 ```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate    # macOS/Linux
+.venv\Scripts\activate       # Windows
 pip install -r requirements.txt
-```
-
-Playwright is only needed if the API fallback renderer is used:
-
-```bash
-python -m playwright install chromium
-```
-
-## Local Run
-
-The repository includes cached raw and processed data, so a fresh clone can open the dashboard immediately:
-
-```bash
 streamlit run app.py
 ```
 
@@ -49,25 +41,79 @@ Open the local URL printed by Streamlit, usually:
 http://localhost:8501
 ```
 
-## Run on a Local Network
+`localhost` means the current machine only. A URL such as `http://localhost:8502/` works only on the computer that is running the Streamlit server. Other people cannot open your localhost link from their own computers. If your computer is off, sleeping, disconnected from Wi-Fi, or Streamlit is stopped, the dashboard is not accessible. For that reason, localhost is not suitable as the final link to send to an instructor.
 
-To let another computer on the same Wi-Fi open the dashboard:
+Playwright is only needed if the API fallback renderer is used:
 
 ```bash
-streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+python -m playwright install chromium
+```
+
+### B. Run on a specific port
+
+Use this when you specifically want port `8502`:
+
+```bash
+streamlit run app.py --server.port 8502
+```
+
+Then open:
+
+```text
+http://localhost:8502
+```
+
+If port `8502` is already occupied, stop the process using that port or choose another port such as `8501`.
+
+### C. Temporary local network sharing
+
+For short testing on another device connected to the same Wi-Fi:
+
+```bash
+streamlit run app.py --server.address 0.0.0.0 --server.port 8502
 ```
 
 On the other device, open:
 
 ```text
-http://HOST_MACHINE_IP:8501
+http://HOST_MACHINE_IP:8502
 ```
 
 Notes:
 
-- The host computer must stay on and keep Streamlit running.
 - Both devices must be on the same network.
-- The host firewall may need to allow inbound traffic on port `8501`.
+- The host computer must stay on.
+- Streamlit must keep running.
+- The host firewall may need to allow inbound traffic on port `8502`.
+- This method is only for temporary testing, not final submission.
+
+### D. Recommended: Streamlit Community Cloud
+
+Use Streamlit Community Cloud for the instructor link because the app stays accessible without your local computer running.
+
+1. Push this repository to GitHub.
+2. Go to `https://streamlit.io/cloud`.
+3. Create a new app.
+4. Select the GitHub repository.
+5. Set the main file path to `app.py`.
+6. Deploy.
+7. Share the generated public Streamlit URL with the instructor.
+
+Deployment checklist:
+
+- `app.py` exists at the repository root.
+- `requirements.txt` exists and includes the Python dependencies.
+- `runtime.txt` requests Python 3.11 for hosted deployment.
+- `data/raw/` and `data/processed/` include cached official data, or the scraper can regenerate it.
+- `.streamlit/config.toml` is included for the CMU-inspired theme.
+- No local-only absolute paths are required.
+- No secrets are committed.
+
+If deployed publicly, avoid repeatedly scraping the official CMU API from the hosted app. Keep the cached data in the repo for classroom submission, and rerun the scraper locally only when refreshing the dataset.
+
+### Other hosting options
+
+Streamlit Community Cloud is the simplest option for this project. Alternatives include Render, Railway, Hugging Face Spaces, or a Docker/VPS deployment.
 
 ## Reproducible Data Pipeline
 
@@ -127,29 +173,9 @@ README.md
 - International faculty opportunity uses nationality data where available and international-program share as a faculty-level proxy.
 - Scenario estimates are deterministic accounting estimates, not causal forecasts.
 
-## Public Sharing / Instructor Submission
-
-### Streamlit Community Cloud
-
-1. Push this repository to GitHub.
-2. Go to `https://streamlit.io/cloud`.
-3. Create a new app from the GitHub repository.
-4. Set the main file path to `app.py`.
-5. Deploy.
-
-Deployment checklist:
-
-- `app.py` exists at the repository root.
-- `requirements.txt` exists and includes the Python dependencies.
-- `data/raw/` and `data/processed/` include cached official data, or the scraper can regenerate it.
-- `.streamlit/config.toml` is included for the CMU-inspired theme.
-- No local-only absolute paths are required.
-- No secrets are committed.
-
-If deployed publicly, avoid repeatedly scraping the official CMU API from the hosted app. Keep the cached data in the repo for classroom submission, and rerun the scraper locally only when refreshing the dataset.
-
 ## Troubleshooting
 
 - **Missing processed tables**: run `python -m src.scrape --years-back 5 --delay 1.2`, then `python -m src.clean`.
 - **Dashboard opens but charts are empty**: check that `data/processed/*.csv` exists.
-- **Another device cannot open the app**: confirm both devices are on the same Wi-Fi, use the host machine IP address, keep Streamlit running, and allow firewall access to port `8501`.
+- **`http://localhost:8502/` does not open**: confirm Streamlit is running with `streamlit run app.py --server.port 8502`. If no process is listening on port `8502`, the browser has nothing to connect to.
+- **Another device cannot open the app**: confirm both devices are on the same Wi-Fi, use the host machine IP address, keep Streamlit running, and allow firewall access to port `8502`.

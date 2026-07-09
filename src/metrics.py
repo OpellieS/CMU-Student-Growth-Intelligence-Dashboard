@@ -30,6 +30,18 @@ TABLES = {
 }
 
 
+def faculty_match_key(value: object) -> str:
+    """Normalize official faculty names across tables with/without Thai prefixes."""
+    if pd.isna(value):
+        return ""
+    text = str(value).strip()
+    for prefix in ("คณะ", "วิทยาลัย", "สถาบัน"):
+        if text.startswith(prefix):
+            text = text[len(prefix) :]
+            break
+    return "".join(text.split())
+
+
 def read_table(name: str) -> pd.DataFrame:
     path = PROCESSED_DIR / TABLES[name]
     if not path.exists():
@@ -43,7 +55,36 @@ def read_table(name: str) -> pd.DataFrame:
 
 
 def load_data() -> dict[str, pd.DataFrame]:
-    return {name: read_table(name) for name in TABLES}
+    data = {name: read_table(name) for name in TABLES}
+    critical = ["current_faculty", "admission", "graduates", "history"]
+    missing_critical = any(data[name].empty for name in critical)
+    raw_dir = PROJECT_ROOT / "data" / "raw"
+
+    if missing_critical and any(raw_dir.glob("data_s*.json")):
+        try:
+            from src.clean import clean
+
+            clean(raw_dir)
+            data = {name: read_table(name) for name in TABLES}
+        except Exception as exc:  # pragma: no cover - surfaced in Streamlit UI
+            for df in data.values():
+                df.attrs["load_error"] = (
+                    "Processed data is missing and automatic regeneration from "
+                    f"`data/raw/` failed: {exc}"
+                )
+
+    return data
+
+
+def merge_by_faculty_key(base: pd.DataFrame, other: pd.DataFrame) -> pd.DataFrame:
+    if other.empty or "_faculty_key" not in base.columns:
+        return base
+    work = other.copy()
+    if "faculty_name" not in work.columns:
+        return base
+    work["_faculty_key"] = work["faculty_name"].map(faculty_match_key)
+    work = work.drop(columns=["faculty_name"], errors="ignore")
+    return base.merge(work, on="_faculty_key", how="left")
 
 
 def numeric(df: pd.DataFrame, column: str, default: float = 0.0) -> pd.Series:
@@ -213,6 +254,7 @@ def faculty_metrics(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
             )
         )
     )
+    base["_faculty_key"] = base["faculty_name"].map(faculty_match_key)
 
     adm = latest_admission(data.get("admission", pd.DataFrame()), "all")
     if not adm.empty:
@@ -224,11 +266,11 @@ def faculty_metrics(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
                 yield_rate=lambda d: np.where(d["issued_total"] > 0, d["remaining_total"] / d["issued_total"], np.nan),
             )
         )
-        base = base.merge(adm_summary, on="faculty_name", how="left")
+        base = merge_by_faculty_key(base, adm_summary)
 
     growth = faculty_growth(data.get("history", pd.DataFrame()))
     if not growth.empty:
-        base = base.merge(growth[["faculty_name", "growth_rate", "cagr"]], on="faculty_name", how="left")
+        base = merge_by_faculty_key(base, growth[["faculty_name", "growth_rate", "cagr"]])
 
     over = data.get("over_program", pd.DataFrame())
     if not over.empty:
@@ -237,22 +279,28 @@ def faculty_metrics(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
             .agg(over_program_students=("over_program_students", "sum"), over_current_students=("current_students", "sum"))
             .assign(over_program_rate=lambda d: np.where(d["over_current_students"] > 0, d["over_program_students"] / d["over_current_students"], np.nan))
         )
-        base = base.merge(over_summary[["faculty_name", "over_program_students", "over_program_rate"]], on="faculty_name", how="left")
+        base = merge_by_faculty_key(base, over_summary[["faculty_name", "over_program_students", "over_program_rate"]])
 
     transfer = data.get("transfer", pd.DataFrame())
     if not transfer.empty:
         transfer_summary = (
             transfer.groupby("faculty_name", as_index=False)
             .agg(transfer_in=("transfer_in", "sum"), transfer_out=("transfer_out", "sum"), net_transfer=("net_transfer", "sum"))
-            .assign(transfer_out_rate=lambda d: np.where(base["current_students"].median() > 0, d["transfer_out"] / d["transfer_out"].sum(), np.nan))
         )
-        base = base.merge(transfer_summary, on="faculty_name", how="left")
+        base = merge_by_faculty_key(base, transfer_summary)
+        base["transfer_out_rate"] = np.where(base["current_students"] > 0, base["transfer_out"] / base["current_students"], np.nan)
+        base["transfer_in_rate"] = np.where(base["current_students"] > 0, base["transfer_in"] / base["current_students"], np.nan)
+        base["transfer_movement_rate"] = np.where(
+            base["current_students"] > 0,
+            (base["transfer_in"].fillna(0) + base["transfer_out"].fillna(0)) / base["current_students"],
+            np.nan,
+        )
 
     current_year, current_semester = current_period(current)
     grads = latest_graduates(data.get("graduates", pd.DataFrame()), exclude_year=current_year, exclude_semester=current_semester)
     if not grads.empty:
         grad_summary = grads.groupby("faculty_name", as_index=False).agg(graduate_count=("graduate_count", "sum"))
-        base = base.merge(grad_summary, on="faculty_name", how="left")
+        base = merge_by_faculty_key(base, grad_summary)
         base["graduation_output_ratio"] = np.where(base["current_students"] > 0, base["graduate_count"].fillna(0) / base["current_students"], np.nan)
 
     for col in [
@@ -268,7 +316,9 @@ def faculty_metrics(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
         "transfer_in",
         "transfer_out",
         "net_transfer",
+        "transfer_in_rate",
         "transfer_out_rate",
+        "transfer_movement_rate",
         "graduate_count",
         "graduation_output_ratio",
     ]:
@@ -288,7 +338,7 @@ def faculty_metrics(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
     base["risk_zscore"] = (base["risk_score"] - base["risk_score"].mean(skipna=True)) / base["risk_score"].std(skipna=True) if base["risk_score"].std(skipna=True) else 0
     base["risk_flag"] = base["risk_zscore"].abs() >= 1.5
     base["quadrant"] = quadrant(base)
-    return base.sort_values("current_students", ascending=False)
+    return base.drop(columns=["_faculty_key"], errors="ignore").sort_values("current_students", ascending=False)
 
 
 def quadrant(df: pd.DataFrame) -> pd.Series:
