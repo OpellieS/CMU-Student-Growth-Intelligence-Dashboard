@@ -1,0 +1,136 @@
+{
+  "source": "official_json_api",
+  "api_base": "https://api-statistic.reg.cmu.ac.th/v1",
+  "site_base": "https://statistic.reg.cmu.ac.th",
+  "target_stats": {
+    "s001001": {
+      "page": "/stat/s001/001",
+      "group": "current",
+      "label": "current_active_students"
+    },
+    "s001004": {
+      "page": "/stat/s001/004",
+      "group": "current",
+      "label": "current_undergraduate_programs"
+    },
+    "s001007": {
+      "page": "/stat/s001/007",
+      "group": "current",
+      "label": "current_graduate_programs_by_admit_year"
+    },
+    "s001012": {
+      "page": "/stat/s001/012",
+      "group": "international",
+      "label": "current_students_by_nationality"
+    },
+    "s001016": {
+      "page": "/stat/s001/016",
+      "group": "international",
+      "label": "current_students_by_nationality_faculty"
+    },
+    "s001010": {
+      "page": "/stat/s001/010",
+      "group": "risk",
+      "label": "over_program_length_students"
+    },
+    "s001017": {
+      "page": "/stat/s001/017",
+      "group": "risk",
+      "label": "transfer_students"
+    },
+    "s002001": {
+      "page": "/stat/s002/001",
+      "group": "admission",
+      "label": "admission_issued_waived_remaining"
+    },
+    "s002002": {
+      "page": "/stat/s002/002",
+      "group": "admission",
+      "label": "first_generation_admission_issued_waived_remaining"
+    },
+    "s003001": {
+      "page": "/stat/s003/001",
+      "group": "graduates",
+      "label": "graduates_by_admission_year"
+    },
+    "s003002": {
+      "page": "/stat/s003/002",
+      "group": "graduates",
+      "label": "graduates_by_graduation_semester"
+    },
+    "s003003": {
+      "page": "/stat/s003/003",
+      "group": "graduates",
+      "label": "graduates_by_admission_year_program"
+    },
+    "s004001": {
+      "page": "/stat/s004/001",
+      "group": "history",
+      "label": "historical_students_by_semester"
+    },
+    "s004005": {
+      "page": "/stat/s004/005",
+      "group": "history",
+      "label": "historical_graduate_students_by_program"
+    }
+  },
+  "years_back": 3,
+  "delay_seconds": 1.0,
+  "force": false,
+  "fetched_at_utc": "2026-07-09T14:38:45+00:00",
+  "saved_files": [
+    "data/raw/data_s001001__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001004__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001007__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001010__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001017__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-CN_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__b502ee6e.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-MM_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__a2d7d096.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-ID_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__888ba8d1.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-US_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__0fa8e48d.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-PK_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__bd937575.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-LA_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__5921e99d.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-VN_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__7888b8b9.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-JP_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__c49f0e7d.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-PH_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__bb7cf648.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-IN_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2208310c.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-NP_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__06b192ce.json",
+    "data/raw/data_s001016__admityear-999_fac-999_level-999_nat-BD_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__a0836a68.json",
+    "data/raw/data_s002001__admityear-69_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__5fb70fa7.json",
+    "data/raw/data_s002002__admityear-69_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__5fb70fa7.json",
+    "data/raw/data_s003001__admityear-69_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__5fb70fa7.json",
+    "data/raw/data_s003003__admityear-69_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__5fb70fa7.json",
+    "data/raw/data_s002001__admityear-68_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__b5afbfa5.json",
+    "data/raw/data_s002002__admityear-68_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__b5afbfa5.json",
+    "data/raw/data_s003001__admityear-68_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__b5afbfa5.json",
+    "data/raw/data_s003003__admityear-68_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__b5afbfa5.json",
+    "data/raw/data_s002001__admityear-67_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__c88e5c13.json",
+    "data/raw/data_s002002__admityear-67_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__c88e5c13.json",
+    "data/raw/data_s003001__admityear-67_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__c88e5c13.json",
+    "data/raw/data_s003003__admityear-67_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__c88e5c13.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2569__fc8446e9.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-3_semestercurrent-3_sex-999_student_type-999_year-2569__a8760e9d.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2568__5ca58e19.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2568__a1687e88.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-3_semestercurrent-3_sex-999_student_type-999_year-2568__bda185f6.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2567__cc2eb791.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2567__14bbb763.json",
+    "data/raw/data_s003002__admityear-999_fac-999_level-999_nat-999_semester-3_semestercurrent-3_sex-999_student_type-999_year-2567__655b98e0.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2569__fc8446e9.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2569__fc8446e9.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2568__5ca58e19.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2568__5ca58e19.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2568__a1687e88.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2568__a1687e88.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2567__cc2eb791.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2567__cc2eb791.json",
+    "data/raw/data_s004001__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2567__14bbb763.json",
+    "data/raw/data_s004005__admityear-999_fac-999_level-999_nat-999_semester-2_semestercurrent-2_sex-999_student_type-999_year-2567__14bbb763.json"
+  ],
+  "failures": []
+}

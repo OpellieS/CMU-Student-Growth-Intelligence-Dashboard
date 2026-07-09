@@ -1,0 +1,152 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s003001?year=2569&semester=1&semestercurrent=1&admityear=68&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s003001",
+  "params": {
+    "year": "2569",
+    "semester": "1",
+    "semestercurrent": "1",
+    "admityear": "68",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:53:33+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "2",
+            "colspan": "1"
+          },
+          {
+            "name": "ภาคปกติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "ภาคพิเศษ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "นานาชาติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "1",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "2",
+        "iterate": 4,
+        "field": [
+          {
+            "name": "ชาย",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "หญิง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวม",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "c1": 10,
+        "c2": 52,
+        "c3": 62,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 0,
+        "c8": 0,
+        "c9": 0,
+        "c10": 11,
+        "c11": 52,
+        "c12": 63
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 13,
+        "c5": 64,
+        "c6": 77,
+        "c7": 0,
+        "c8": 0,
+        "c9": 0,
+        "c10": 13,
+        "c11": 64,
+        "c12": 77
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 0,
+        "c8": 1,
+        "c9": 1,
+        "c10": 0,
+        "c11": 1,
+        "c12": 1
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 0,
+        "c8": 0,
+        "c9": 0,
+        "c10": 1,
+        "c11": 0,
+        "c12": 1
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 1,
+        "c6": 1,
+        "c7": 0,
+        "c8": 0,
+        "c9": 0,
+        "c10": 0,
+        "c11": 1,
+        "c12": 1
+      }
+    ],
+    "order": "al",
+    "error": ""
+  }
+}

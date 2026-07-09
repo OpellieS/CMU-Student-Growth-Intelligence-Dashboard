@@ -1,0 +1,5965 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s001010?year=2569&semester=1&semestercurrent=1&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s001010",
+  "params": {
+    "year": "2569",
+    "semester": "1",
+    "semestercurrent": "1",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:53:20+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ลำดับ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ชื่อหลักสูตร",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รูปแบบ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "จำนวนนักศึกษา ณ ปัจจุบัน",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "นักศึกษาที่เรียนเกินหลักสูตร",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": 534,
+        "c2": 24
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาฝรั่งเศส)",
+        "curriculum_type": "ไทย",
+        "c1": 161,
+        "c2": 4
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาเยอรมัน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ประวัติศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 8,
+        "c2": 8
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (บ้านและชุมชน)",
+        "curriculum_type": "ไทย",
+        "c1": 216,
+        "c2": 9
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (บรรณารักษศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (การสื่อสารมวลชน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ปรัชญา)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 18
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (จิตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 239,
+        "c2": 3
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาไทย)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 4
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาญี่ปุ่น)",
+        "curriculum_type": "ไทย",
+        "c1": 11,
+        "c2": 11
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (สารสนเทศศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 291,
+        "c2": 20
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาจีน)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 6
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (การท่องเที่ยวและการโรงแรม)",
+        "curriculum_type": "ไทย",
+        "c1": 423,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (การท่องเที่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": 12,
+        "c2": 12
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาไทยในฐานะภาษาต่างประเทศ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 84,
+        "c2": 3
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาและวัฒนธรรมพม่า)",
+        "curriculum_type": "ไทย",
+        "c1": 80,
+        "c2": 7
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (มนุษยศาสตร์และความยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 202,
+        "c2": 3
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 1326,
+        "c2": 7
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.วท.บ. (ศิลปะการอาหารเชิงนวัตกรรมและการเป็นผู้ประกอบการ)\r\nศศ.วท.บ. (ศิลปะการอา",
+        "curriculum_type": "ไทย",
+        "c1": 47,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาษาและวัฒนธรรมเมียนมา)",
+        "curriculum_type": "ไทย",
+        "c1": 40,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การท่องเที่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จิตวิทยาการปรึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 87,
+        "c2": 38
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ปรัชญา)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 4
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สารสนเทศศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาและวรรณกรรมล้านนา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ประวัติศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 3
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จิตวิทยาโรงเรียน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (บรรณารักษศาสตร์และสารนิเทศศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จิตวิทยาอุตสาหกรรมและองค์การ)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 6
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (พุทธศาสนศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาไทย)",
+        "curriculum_type": "ไทย",
+        "c1": 20,
+        "c2": 12
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (วัฒนธรรมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ญี่ปุ่นศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาอังกฤษและการสื่อสาร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ล้านนาศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 5
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สารสนเทศศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 14,
+        "c2": 4
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จิตวิทยาองค์การ ทรัพยากรมนุษย์และการทำงาน)",
+        "curriculum_type": "ไทย",
+        "c1": 37,
+        "c2": 12
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จิตวิทยาคลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": 64,
+        "c2": 28
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (พุทธศาสตรศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (มนุษยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 8,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ประวัติศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 10,
+        "c2": 6
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (จิตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 9,
+        "c2": null
+      },
+      {
+        "faculty": "01 : คณะมนุษยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (พุทธศาสตรศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 11,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (เกษตรกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (บริหารธุรกิจ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (บริหารการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ประถมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 224,
+        "c2": 3
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": 152,
+        "c2": 1
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ภาษาฝรั่งเศส)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (สุขศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (คหกรรมศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (อุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (คณิตศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 143,
+        "c2": 1
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (พลศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 154,
+        "c2": 12
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (วิทยาศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (สังคมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 151,
+        "c2": 2
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ภาษาไทย)",
+        "curriculum_type": "ไทย",
+        "c1": 152,
+        "c2": 1
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (อนุบาลศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (อุตสาหกรรมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 50,
+        "c2": 6
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (สุขศึกษาและการส่งเสริมสุขภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (การศึกษาปฐมวัย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (บริหารธุรกิจ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (เกษตรกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ศิลปศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 146,
+        "c2": 14
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ฟิสิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": 96,
+        "c2": 2
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 91,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (เคมี)",
+        "curriculum_type": "ไทย",
+        "c1": 108,
+        "c2": 9
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ธุรกิจศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (การศึกษาปฐมวัยและการศึกษาพิเศษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (การศึกษาปฐมวัย-การศึกษาพิเศษ)",
+        "curriculum_type": "ไทย",
+        "c1": 133,
+        "c2": 6
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (อุตสาหกรรมและการงานอาชีพ)",
+        "curriculum_type": "ไทย",
+        "c1": 74,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศษ.บ. (ดนตรีศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การสื่อสารเพื่อการพัฒนา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (วิชาชีพครู)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (วิทยาศาสตร์ศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 70,
+        "c2": 37
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (เทคโนโลยีทางการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (หลักสูตรและการสอน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การวัดและประเมินผลการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การบริหารการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การบริหารการศึกษา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การศึกษานอกระบบ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (ประถมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (วิจัยและสถิติการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (วิจัยและสถิติการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (คณิตศาสตร์ศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การส่งเสริมสุขภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การสอนภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การสอนภาษาไทย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การสอนสังคมศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (จิตวิทยาการศึกษาและการแนะแนว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (จิตวิทยาการศึกษาและการแนะแนว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (อาชีวศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (อาชีวศึกษา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การศึกษาพิเศษ)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 4
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (วิจัยและสถิติการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การสอนภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (ประเมินผลและวิจัยการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 67,
+        "c2": 36
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (หลักสูตร การสอน และเทคโนโลยีการเรียนรู้)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 37,
+        "c2": 20
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (คณิตศาสตรศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 34,
+        "c2": 21
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (หลักสูตรและการสอน)",
+        "curriculum_type": "ไทย",
+        "c1": 71,
+        "c2": 33
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (การบริหารการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 157,
+        "c2": 51
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศษ.ด. (หลักสูตรและการสอน)",
+        "curriculum_type": "ไทย",
+        "c1": 28,
+        "c2": 14
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศษ.ด. (การวิจัยและพัฒนาการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 29,
+        "c2": 24
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศษ.ด. (หลักสูตร การสอน และเทคโนโลยีการเรียนรู้)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "02 : คณะศึกษาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การบริหารการศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 24,
+        "c2": 9
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (ภาพพิมพ์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (จิตรกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 146,
+        "c2": 11
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (ประติมากรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 165,
+        "c2": 32
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (ศิลปะไทย)",
+        "curriculum_type": "ไทย",
+        "c1": 20,
+        "c2": 20
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (การออกแบบ)",
+        "curriculum_type": "ไทย",
+        "c1": 230,
+        "c2": 8
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (ภาพพิมพ์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (ศิลปะการถ่ายภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศป.บ. (สื่อศิลปะและการออกแบบสื่อ)",
+        "curriculum_type": "ไทย",
+        "c1": 216,
+        "c2": 20
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (สหศาสตร์ศิลป์)",
+        "curriculum_type": "ไทย",
+        "c1": 161,
+        "c2": 23
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (ศิลปะภาพพิมพ์)",
+        "curriculum_type": "ไทย",
+        "c1": 151,
+        "c2": 30
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (ศิลปะการดนตรีและการแสดง)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (การถ่ายภาพสร้างสรรค์)",
+        "curriculum_type": "ไทย",
+        "c1": 199,
+        "c2": 17
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (ศิลปะการแสดง)",
+        "curriculum_type": "ไทย",
+        "c1": 147,
+        "c2": 10
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศล.บ. (ศิลปะไทยและวัฒนธรรมสร้างสรรค์)",
+        "curriculum_type": "ไทย",
+        "c1": 164,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศป.ม. (ภาพพิมพ์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศป.ม. (ทัศนศิลป์)",
+        "curriculum_type": "ไทย",
+        "c1": 44,
+        "c2": 13
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศป.ม. (จิตรกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการศิลปะและวัฒนธรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 7
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศล.ม. (ศิลปะและการออกแบบ)",
+        "curriculum_type": "ไทย",
+        "c1": 8,
+        "c2": 6
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ดนตรี)",
+        "curriculum_type": "ไทย",
+        "c1": 14,
+        "c2": 7
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศล.ด. (ศิลปะและการออกแบบ)",
+        "curriculum_type": "ไทย",
+        "c1": 48,
+        "c2": 10
+      },
+      {
+        "faculty": "03 : คณะวิจิตรศิลป์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ดนตรี)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 1
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ภูมิศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 306,
+        "c2": 18
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ร.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สังคมวิทยาและมานุษยวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 457,
+        "c2": 17
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "รป.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "น.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ไทยศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (สังคมศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ภูมิสารสนเทศศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (อาเซียนศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": 256,
+        "c2": 12
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (สังคมศาสตร์และการพัฒนาอย่างยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 109,
+        "c2": 1
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ภูมิศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ร.ม. (การเมืองและการปกครอง)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การพัฒนาสังคม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การพัฒนาสังคม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "รป.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การพัฒนาอย่างยั่งยืน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การพัฒนาอย่างยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (เศรษฐศาสตร์การเมือง)",
+        "curriculum_type": "ไทย",
+        "c1": 28,
+        "c2": 15
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การใช้ที่ดินและการจัดการทรัพยากรธรรมชาติอย่างยั่งยืน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การใช้ที่ดินและการจัดการทรัพยากรธรรมชาติอย่างยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สตรีศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "น.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ภูมิสารสนเทศ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สังคมศาสตร์สุขภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การจัดการสาธารณภัย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ชาติพันธุ์สัมพันธ์และการพัฒนา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สังคมวิทยาและมานุษยวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 19,
+        "c2": 10
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สังคมศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 4
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สังคมศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 131,
+        "c2": 87
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ภูมิศาสตร์และภูมิสารสนเทศศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 20,
+        "c2": 3
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สตรีศึกษาและเพศภาวะศึกษา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศศ.ด. (สังคมศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 25,
+        "c2": 13
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (การพัฒนาอย่างยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (การใช้ที่ดินและการจัดการทรัพยากรธรรมชาติอย่างยั่งยืน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สังคมวิทยาและมานุษยวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 14,
+        "c2": 7
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สตรีศึกษาและเพศภาวะศึกษา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ภูมิศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 4,
+        "c2": 2
+      },
+      {
+        "faculty": "04 : คณะสังคมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สตรี เพศภาวะและเพศวิถีศึกษา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 23,
+        "c2": 8
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 105,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เคมี)",
+        "curriculum_type": "ไทย",
+        "c1": 182,
+        "c2": 11
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาการคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 344,
+        "c2": 22
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ธรณีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 172,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (คณิตศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 140,
+        "c2": 21
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ฟิสิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": 123,
+        "c2": 14
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สถิติ)",
+        "curriculum_type": "ไทย",
+        "c1": 163,
+        "c2": 18
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เคมีอุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 148,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วัสดุศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 119,
+        "c2": 7
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ชีวเคมีและชีวเคมีเทคโนโลยี)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (จุลชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 139,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สัตววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 70,
+        "c2": 7
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (อัญมณีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 105,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาการข้อมูล)",
+        "curriculum_type": "ไทย",
+        "c1": 172,
+        "c2": 11
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 115,
+        "c2": 5
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ชีวเคมีและชีวเคมีนวัตกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 118,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 61,
+        "c2": 25
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการคอมพิวเตอร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (คณิตศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 12,
+        "c2": 3
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การสอนคณิตศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 11,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เคมี)",
+        "curriculum_type": "ไทย",
+        "c1": 38,
+        "c2": 19
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การสอนเคมี)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 34,
+        "c2": 13
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การสอนชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 6,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ฟิสิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": 25,
+        "c2": 17
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การสอนฟิสิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สถิติประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สถิติประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีฟิสิกส์ประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีฟิสิกส์ประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 8,
+        "c2": 6
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 18,
+        "c2": 8
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ฟิสิกส์ประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การประเมินความเสี่ยงทางด้านสิ่งแวดล้อมในระบบนิเวศเขตร้อน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.  (คณิตศาสตร์ประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": 13,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.  (คณิตศาสตร์ประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.  (วัสดุศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 11,
+        "c2": 10
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.  (วัสดุศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เคมีอุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 17,
+        "c2": 7
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีศาสตร์ปิโตรเลียม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ชีวสารสนเทศศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์คณิตศาสตร์บูรณาการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จุลชีววิทยาประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จุลชีววิทยาประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 33,
+        "c2": 17
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ดาราศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ดาราศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 9,
+        "c2": 7
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธรณีฟิสิกส์ปิโตรเลียม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์นวัตกรรมเพื่ออุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สถิติประยุกต์และการวิเคราะห์เชิงลึก)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 3
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีควอนตัม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (คณิตศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 8,
+        "c2": 8
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (คณิตศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 14,
+        "c2": 3
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เคมี)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เคมี)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 25,
+        "c2": 15
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ชีววิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 13,
+        "c2": 6
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ธรณีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ธรณีวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 5,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ฟิสิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ฟิสิกส์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 11,
+        "c2": 6
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สถิติประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": 12,
+        "c2": 8
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 8,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาการคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาการคอมพิวเตอร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 7,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ฟิสิกส์ประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ฟิสิกส์ประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 4,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วัสดุศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 3
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วัสดุศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ความหลากหลายทางชีวภาพและชีววิทยาชาติพันธุ์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ความหลากหลายทางชีวภาพและชีววิทยาชาติพันธุ์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 5,
+        "c2": 4
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (จุลชีววิทยาประยุกต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (จุลชีววิทยาประยุกต์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 19,
+        "c2": 6
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เคมีอุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เคมีอุตสาหกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 2,
+        "c2": 2
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ดาราศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 3
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ดาราศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 15,
+        "c2": 5
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์นาโนและเทคโนโลยีนาโน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 10,
+        "c2": 7
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์และเทคโนโลยีควอนตัม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "05 : คณะวิทยาศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เคมีอุตสาหกรรมและนวัตกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 2,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมโยธา)",
+        "curriculum_type": "ไทย",
+        "c1": 525,
+        "c2": 53
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมโยธา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 78,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมไฟฟ้า)",
+        "curriculum_type": "ไทย",
+        "c1": 476,
+        "c2": 41
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมสิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 307,
+        "c2": 39
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมอุตสาหการ)",
+        "curriculum_type": "ไทย",
+        "c1": 961,
+        "c2": 123
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "ไทย",
+        "c1": 957,
+        "c2": 163
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 14,
+        "c2": 14
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเหมืองแร่)",
+        "curriculum_type": "ไทย",
+        "c1": 57,
+        "c2": 22
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเครื่องจักรกลเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 374,
+        "c2": 33
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ.  (วิศวกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมระบบสารสนเทศและเครือข่าย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมระบบสารสนเทศและเครือข่าย)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 76,
+        "c2": 4
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การจัดการงานช่างและผังเมือง)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์)",
+        "curriculum_type": "ไทย",
+        "c1": 224,
+        "c2": 13
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมบูรณาการ)",
+        "curriculum_type": "ไทย",
+        "c1": 147,
+        "c2": 16
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมไฟฟ้าและเทคโนโลยีโครงข่ายไฟฟ้าอัจฉริยะ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 76,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมอุตสาหการและการจัดการโลจิสติกส์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 112,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเครื่องกลและการบริหารโครงการวิศวกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 97,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเหมืองแร่และปิโตรเลียม)",
+        "curriculum_type": "ไทย",
+        "c1": 112,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมบูรณาการและพหุวิทยาการ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 7,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (วิศวกรรมเซมิคอนดักเตอร์)",
+        "curriculum_type": "สองภาษา",
+        "c1": 34,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วศ.บ. (ระบบสารสนเทศและความมั่นคงปลอดภัยไซเบอร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 34,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมและการบริหารการก่อสร้าง)",
+        "curriculum_type": "ไทย",
+        "c1": 90,
+        "c2": 44
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมโยธา)",
+        "curriculum_type": "ไทย",
+        "c1": 73,
+        "c2": 34
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมอุตสาหการ)",
+        "curriculum_type": "ไทย",
+        "c1": 44,
+        "c2": 23
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมสิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 57,
+        "c2": 30
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมไฟฟ้า)",
+        "curriculum_type": "ไทย",
+        "c1": 31,
+        "c2": 5
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "ไทย",
+        "c1": 34,
+        "c2": 16
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมพลังงาน)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 9
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเหมืองแร่)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเหมืองแร่)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 57,
+        "c2": 13
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การจัดการอุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 47,
+        "c2": 15
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 3
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมชีวการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมโลจิสติกส์และการจัดการโซ่อุปทาน)",
+        "curriculum_type": "ไทย",
+        "c1": 57,
+        "c2": 34
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการข้อมูล)",
+        "curriculum_type": "ไทย",
+        "c1": 108,
+        "c2": 44
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเหมืองแร่และทรัพยากรธรณี)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 5,
+        "c2": 5
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเชิงคำนวณขั้นสูงและการออกแบบ)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 6
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมทรัพยากรธรณีเพื่อความยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 13,
+        "c2": 6
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเทคโนโลยีพลาสมาและระบบกลไฟฟ้าจุลภาค)",
+        "curriculum_type": "ไทย",
+        "c1": 9,
+        "c2": 1
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "ไทย",
+        "c1": 19,
+        "c2": 13
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมไฟฟ้า)",
+        "curriculum_type": "ไทย",
+        "c1": 16,
+        "c2": 9
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมพลังงาน)",
+        "curriculum_type": "ไทย",
+        "c1": 14,
+        "c2": 2
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมอุตสาหการ)",
+        "curriculum_type": "ไทย",
+        "c1": 12,
+        "c2": 5
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมสิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 5
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมโยธา)",
+        "curriculum_type": "ไทย",
+        "c1": 25,
+        "c2": 17
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิศวกรรมชีวการแพทย์) 53",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิศวกรรมคอมพิวเตอร์)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 11
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาการข้อมูล)",
+        "curriculum_type": "ไทย",
+        "c1": 13,
+        "c2": 7
+      },
+      {
+        "faculty": "06 : คณะวิศวกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วศ.ด. (วิศวกรรมเทคโนโลยีพลาสมาและระบบกลไฟฟ้าจุลภาค)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ป.ผู้ช่วยทางการแพทย์",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ประกาศนียบัตรพนักงานเซลล์วิทยา",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "พ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 1505,
+        "c2": 34
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ส.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์การแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (กุมารเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ศัลยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (จักษุวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (จิตเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (โสต นาสิก ลาริงซ์วิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (วิสัญญีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (เวชปฏิบัติทั่วไป)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (รังสีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (สูติศาสตร์และนรีเวชวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (อายุรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ศัลยศาสตร์ออโธปิดิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (จุลชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (นิติเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (พยาธิวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (เวชศาสตร์ฟื้นฟู)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (เวชศาสตร์ครอบครัว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (กายวิภาคศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 1
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จุลชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (จุลชีววิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 16,
+        "c2": 3
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ชีวเคมี)",
+        "curriculum_type": "ไทย",
+        "c1": 22,
+        "c2": 7
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เภสัชวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ปรสิตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ปรสิตวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 4,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สรีรวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 2
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (พิษวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 20,
+        "c2": 8
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ฟิสิกส์การแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 7
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.  (ฟิสิกส์การแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การแพทย์คลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การแพทย์คลินิก)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สูติศาสตร์และนรีเวชวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 1,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (กุมารเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (จักษุวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (จิตเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (นิติเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (พยาธิวิทยากายวิภาค)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (รังสีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (วิสัญญีวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (เวชศาสตร์ฟื้นฟู)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (ศัลยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (สูติศาสตร์และนรีเวชวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (โสต ศอ นาสิกวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (ออร์โธปิดิกส์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (อายุรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (เวชศาสตร์ครอบครัว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (พยาธิวิทยาคลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "X",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "X",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "X",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "X",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (กายวิภาคศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 10,
+        "c2": 7
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (กายวิภาคศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 8,
+        "c2": 6
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (จุลชีววิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 2,
+        "c2": 2
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (จุลชีววิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 7,
+        "c2": 4
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ชีวเคมี)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ชีวเคมี)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 16,
+        "c2": 10
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เภสัชวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 2,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เภสัชวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 2,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ปรสิตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ปรสิตวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 4,
+        "c2": 2
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (สรีรวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สรีรวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 14,
+        "c2": 6
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ระบาดวิทยาคลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": 18,
+        "c2": 18
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ระบาดวิทยาคลินิก)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 42,
+        "c2": 21
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เวชศาสตร์ชุมชน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เวชศาสตร์ชุมชน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 8,
+        "c2": 2
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นิติวิทยากระดูก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์การแพทย์คลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์การแพทย์คลินิก)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 11,
+        "c2": 7
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สูติศาสตร์และนรีเวชวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 6,
+        "c2": 4
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นิติวิทยากระดูกและฟัน)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 5
+      },
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์การแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 43,
+        "c2": 6
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เศรษฐศาสตร์เกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": 23,
+        "c2": 23
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 930,
+        "c2": 62
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ปฐพีศาสตร์และอนุรักษศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สัตวศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (พืชไร่)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (พืชสวน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ส่งเสริมและเผยแพร่การเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (โรคพืช)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (กีฏวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สัตวศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 512,
+        "c2": 18
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เศรษฐศาสตร์เกษตรและธุรกิจเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": 342,
+        "c2": 1
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เกษตรที่สูงและทรัพยากรป่าไม้)",
+        "curriculum_type": "ไทย",
+        "c1": 125,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ผู้ประกอบการด้านเกษตรอัจฉริยะและอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 121,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 21,
+        "c2": 12
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 25,
+        "c2": 8
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 13,
+        "c2": 5
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เกษตรศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 35,
+        "c2": 19
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (โรคพืช)",
+        "curriculum_type": "ไทย",
+        "c1": 26,
+        "c2": 15
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (โรคพืช)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.(เศรษฐศาสตร์เกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.(เศรษฐศาสตร์เกษตร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ธุรกิจเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.(การเกษตรยั่งยืนและการจัดการลุ่มน้ำแบบบูรณาการ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม.(การจัดการระบบเกษตร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ปฐพีศาสตร์และการจัดการทรัพยากรธรรมชาติ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ส่งเสริมการเกษตรและพัฒนาชนบท)",
+        "curriculum_type": "ไทย",
+        "c1": 25,
+        "c2": 18
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ปฐพีศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 20,
+        "c2": 11
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เศรษฐศาสตรเชิงบูรณาการเพื่อการจัดการธุรกิจเกษตรและทรัพยากรอย่างยั่งยืน)",
+        "curriculum_type": "ไทย",
+        "c1": 23,
+        "c2": 12
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (พืชไร่)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 3
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ปฐพีศาสตร์และการจัดการทรัพยากรธรรมชาติ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เกษตรศาสตร์เชิงระบบ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (พืชสวน)",
+        "curriculum_type": "ไทย",
+        "c1": 16,
+        "c2": 7
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (กีฏวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (สัตวศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 10,
+        "c2": 3
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (โรคพืช)",
+        "curriculum_type": "ไทย",
+        "c1": 15,
+        "c2": 3
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (ส่งเสริมการเกษตรและพัฒนาชนบท)",
+        "curriculum_type": "ไทย",
+        "c1": 15,
+        "c2": 11
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การจัดการระบบเกษตร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เทคโนโลยีหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": 16,
+        "c2": 10
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (ปฐพีศาสตร์สิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": 4,
+        "c2": 1
+      },
+      {
+        "faculty": "08 : คณะเกษตรศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ป.ผู้ช่วยทันตแพทย์",
+        "curriculum_type": "ไทย",
+        "c1": 54,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ท.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 387,
+        "c2": 16
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์การแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ศัลยศาสตร์ช่องปากและแม็กซิลโลเฟเชียล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (วิทยาเอ็นโดดอนต์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ทันตกรรมประดิษฐ์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ปริทันตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ทันตกรรมทั่วไป)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (เวชศาสตร์ช่องปาก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ทันตกรรมสำหรับเด็ก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (ทันตกรรมบูรณะ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต ทางวิทยาศาสตร์การแพทย์คลินิก (ทันตแพทยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 102,
+        "c2": 38
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ปริทันตวิทยา)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 2
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ทันตกรรมจัดฟัน)",
+        "curriculum_type": "ไทย",
+        "c1": 10,
+        "c2": 2
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ทันตกรรมป้องกัน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ทันตกรรมป้องกัน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ทันตแพทยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 134,
+        "c2": 78
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ทันตกรรมผู้สูงอายุ)",
+        "curriculum_type": "ไทย",
+        "c1": 12,
+        "c2": 10
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (ทันตแพทยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 38,
+        "c2": 5
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ท.ด.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ท.ด.",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "09 : คณะทันตแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (โอษฐวิทยา)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 31,
+        "c2": 8
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ภ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 921,
+        "c2": 25
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ภ.บ.(บริบาลเภสัชกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์การแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เภสัชเวท)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เทคโนโลยีเภสัชกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เทคโนโลยีเภสัชกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เภสัชเคมี)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เภสัชกรรมคลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 5
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (เภสัชกรรมคลินิก)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์เภสัชกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 17,
+        "c2": 7
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ภ.ม. (การจัดการเภสัชกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 29,
+        "c2": 16
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์เครื่องสำอาง)",
+        "curriculum_type": "ไทย",
+        "c1": 37,
+        "c2": 9
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เภสัชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 5
+      },
+      {
+        "faculty": "10 : คณะเภสัชศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เภสัชศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 60,
+        "c2": 11
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคนิคการแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": 417,
+        "c2": 9
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (กิจกรรมบำบัด)",
+        "curriculum_type": "ไทย",
+        "c1": 301,
+        "c2": 26
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (รังสีเทคนิค)",
+        "curriculum_type": "ไทย",
+        "c1": 269,
+        "c2": 10
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ.(กายภาพบำบัด)",
+        "curriculum_type": "ไทย",
+        "c1": 260,
+        "c2": 11
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์สื่อความหมายและความผิดปกติของการสื่อความหมาย)",
+        "curriculum_type": "ไทย",
+        "c1": 36,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (เทคนิคการแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (กายภาพบำบัดคลินิก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคนิคการแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การเคลื่อนไหวและการออกกำลังกาย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การเคลื่อนไหวและการออกกำลังกาย)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 5,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์รังสีการแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์รังสีการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 8,
+        "c2": 3
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (กิจกรรมบำบัด)",
+        "curriculum_type": "ไทย",
+        "c1": 21,
+        "c2": 11
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (ความผิดปกติของการสื่อความหมาย)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 3
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "กภ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 15,
+        "c2": 4
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคนิคการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 22,
+        "c2": 12
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สื่อความหมายและความผิดปกติของการสื่อความหมาย)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 3
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคนิคการแพทย์และการจัดการข้อมูล)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาศาสตร์ชีวการแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์ชีวการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 19,
+        "c2": 15
+      },
+      {
+        "faculty": "11 : คณะเทคนิคการแพทย์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์ชีวการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 40,
+        "c2": 8
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ประกาศนียบัตรผู้ช่วยพยาบาล",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ป.ผู้ช่วยพยาบาล",
+        "curriculum_type": "ไทย",
+        "c1": 99,
+        "c2": 1
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "ป. ผู้ช่วยพยาบาล",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "พย.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 679,
+        "c2": 9
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "พย.บ.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 126,
+        "c2": 7
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การพยาบาลสาธารณสุข)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (สุขภาพจิตและการพยาบาลจิตเวช)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลด้านการควบคุมการติดเชื้อ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลผู้ใหญ่)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลผู้ใหญ่)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (สุขภาพจิตและการพยาบาลจิตเวช)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลชุมชน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลแม่และเด็ก)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การบริหารการพยาบาล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การบริหารการพยาบาล)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลสุขภาพจิตและจิตเวช)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลอายุรศาสตร์และศัลยศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลผู้สูงอายุ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลสตรี)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลสตรี)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 13,
+        "c2": 5
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลกุมารเวชศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลกุมารเวชศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลอาชีวอนามัย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การผดุงครรภ์ขั้นสูง)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลเวชปฏิบัติชุมชน)",
+        "curriculum_type": "ไทย",
+        "c1": 56,
+        "c2": 22
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลจิตเวชและสุขภาพจิต)",
+        "curriculum_type": "ไทย",
+        "c1": 47,
+        "c2": 31
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลผู้ป่วยโรคติดเชื้อและการควบคุมการติดเชื้อ)",
+        "curriculum_type": "ไทย",
+        "c1": 45,
+        "c2": 27
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การผดุงครรภ์)",
+        "curriculum_type": "ไทย",
+        "c1": 36,
+        "c2": 28
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การบริหารทางการพยาบาล)",
+        "curriculum_type": "ไทย",
+        "c1": 82,
+        "c2": 33
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลเด็ก)",
+        "curriculum_type": "ไทย",
+        "c1": 37,
+        "c2": 18
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลผู้ใหญ่และผู้สูงอายุ)",
+        "curriculum_type": "ไทย",
+        "c1": 80,
+        "c2": 41
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลเวชปฏิบัติผู้สูงอายุ)",
+        "curriculum_type": "ไทย",
+        "c1": 46,
+        "c2": 24
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การพยาบาลเวชปฏิบัติอาชีวอนามัย)",
+        "curriculum_type": "ไทย",
+        "c1": 23,
+        "c2": 12
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "พย.ด.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "พย.ด.",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (พยาบาลศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 24,
+        "c2": 24
+      },
+      {
+        "faculty": "12 : คณะพยาบาลศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (พยาบาลศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 67,
+        "c2": 50
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 432,
+        "c2": 16
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 72,
+        "c2": null
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคโนโลยีชีวภาพทางอุตสาหกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": 298,
+        "c2": 25
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคโนโลยีการบรรจุ)",
+        "curriculum_type": "ไทย",
+        "c1": 246,
+        "c2": 15
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิศวกรรมกระบวนการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 285,
+        "c2": 28
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคโนโลยีการพัฒนาผลิตภัณฑ์)",
+        "curriculum_type": "ไทย",
+        "c1": 254,
+        "c2": 12
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคโนโลยีผลิตภัณฑ์ทางทะเล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (เทคโนโลยีและนวัตกรรมผลิตภัณฑ์อาหารทะเล)",
+        "curriculum_type": "ไทย",
+        "c1": 162,
+        "c2": 5
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (นวัตกรรมอุตสาหกรรมเกษตรและการเป็นผู้ประกอบการ)",
+        "curriculum_type": "ไทย",
+        "c1": 106,
+        "c2": 1
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 47,
+        "c2": 23
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 13,
+        "c2": 7
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิศวกรรมกระบวนการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การพัฒนาผลิตภัณฑ์อุตสาหกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีการบรรจุ)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 5
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (นวัตกรรมอาหารและอุตสาหกรรมชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": 3,
+        "c2": 3
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 2
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 11,
+        "c2": null
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การพัฒนาผลิตภัณฑ์อุตสาหกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": 2,
+        "c2": 2
+      },
+      {
+        "faculty": "13 : คณะอุตสาหกรรมเกษตร",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นวัตกรรมอาหารและอุตสาหกรรมชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": 15,
+        "c2": 6
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "สพ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 444,
+        "c2": 4
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิทยาศาสตร์การสัตวแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การพยาบาลสัตว์)",
+        "curriculum_type": "ไทย",
+        "c1": 61,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สัตวแพทย์สาธารณสุข)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สัตวแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การสัตวแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การสัตวแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 32,
+        "c2": 17
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สัตวแพทย์สาธารณสุขศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+        "curriculum": "ป.บัณฑิตชั้นสูง วิทยาศาสตร์การสัตวแพทย์คลินิก",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาศาสตร์สัตวแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์การสัตวแพทย์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "14 : คณะสัตวแพทยศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์การสัตวแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 33,
+        "c2": 15
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาตรี",
+        "curriculum": "บช.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาตรี",
+        "curriculum": "บธ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 883,
+        "c2": 64
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาตรี",
+        "curriculum": "บช.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 654,
+        "c2": 19
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาตรี",
+        "curriculum": "บช.บ.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 109,
+        "c2": null
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาตรี",
+        "curriculum": "บธ.บ. (การจัดการธุรกิจบริการ)",
+        "curriculum_type": "สามภาษา",
+        "c1": 237,
+        "c2": 16
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 208,
+        "c2": 101
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บช.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม. (การตลาด)",
+        "curriculum_type": "ไทย",
+        "c1": 81,
+        "c2": 40
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 21,
+        "c2": 21
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บช.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การเงิน)",
+        "curriculum_type": "ไทย",
+        "c1": 70,
+        "c2": 27
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม. (นวัตกรรมธุรกิจสำหรับผู้บริหาร)",
+        "curriculum_type": "ไทย",
+        "c1": 119,
+        "c2": 26
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาเอก",
+        "curriculum": "บธ.ด.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "15 : คณะบริหารธุรกิจ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (บริหารธุรกิจ)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 2
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 1650,
+        "c2": 151
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศ.บ.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 480,
+        "c2": 23
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศ.บ.",
+        "curriculum_type": "ตรี-โท สองภาษา",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศ.บ.",
+        "curriculum_type": "สองภาษา",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 78,
+        "c2": 35
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศ.ม.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 72,
+        "c2": 29
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศ.ม.",
+        "curriculum_type": "ตรี-โท สองภาษา",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศ.ม.",
+        "curriculum_type": "สองภาษา",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ศ.ด. (เศรษฐศาสตร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 30,
+        "c2": 12
+      },
+      {
+        "faculty": "16 : คณะเศรษฐศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เศรษฐกิจพอเพียง)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "สถ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 413,
+        "c2": 19
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (สถาปัตยกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 125,
+        "c2": 14
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การออกแบบเชิงบูรณาการสถาปัตยกรรมแนวใหม่)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 59,
+        "c2": 3
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ภ.สถ.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 154,
+        "c2": 7
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การออกแบบอุตสาหกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 105,
+        "c2": null
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "สถ.ม. (สถาปัตยกรรม)",
+        "curriculum_type": "ไทย",
+        "c1": 53,
+        "c2": 22
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "สถ.ม. (สถาปัตยกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 14,
+        "c2": 2
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ผ.ม. (บูรณาการผังเมืองและชนบท)",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": null
+      },
+      {
+        "faculty": "17 : คณะสถาปัตยกรรมศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สถาปัตยกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 21,
+        "c2": 9
+      },
+      {
+        "faculty": "18 : คณะการสื่อสารมวลชน",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (การสื่อสารมวลชน)",
+        "curriculum_type": "ไทย",
+        "c1": 1088,
+        "c2": 43
+      },
+      {
+        "faculty": "18 : คณะการสื่อสารมวลชน",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (ภาพยนตร์ดิจิทัล)",
+        "curriculum_type": "สองภาษา",
+        "c1": 239,
+        "c2": 15
+      },
+      {
+        "faculty": "18 : คณะการสื่อสารมวลชน",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การสื่อสารศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "18 : คณะการสื่อสารมวลชน",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การสื่อสารบูรณาการ)",
+        "curriculum_type": "ไทย",
+        "c1": 35,
+        "c2": 19
+      },
+      {
+        "faculty": "18 : คณะการสื่อสารมวลชน",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การสื่อสารบูรณาการ)",
+        "curriculum_type": "ไทย",
+        "c1": 7,
+        "c2": 7
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ร.บ.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "รป.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 333,
+        "c2": 8
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ร.บ. (การระหว่างประเทศ)",
+        "curriculum_type": "ไทย",
+        "c1": 333,
+        "c2": 6
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "ร.บ. (การเมืองและการปกครอง)",
+        "curriculum_type": "ไทย",
+        "c1": 306,
+        "c2": 13
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ศาสตร์แห่งความยั่งยืน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 94,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การจัดการและการประเมินโครงการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ร.ม. (การเมืองและการปกครอง)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "รป.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 139,
+        "c2": 49
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภูมิภาคศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (เอเชียตะวันออกเฉียงใต้ศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "19 : คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ร.ม. (การเมืองและการปกครอง)",
+        "curriculum_type": "ไทย",
+        "c1": 52,
+        "c2": 13
+      },
+      {
+        "faculty": "20 : คณะนิติศาสตร์",
+        "level": "ต่ำกว่าปริญญาตรี",
+        "curriculum": "อ.นิติศาสตร์",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "20 : คณะนิติศาสตร์",
+        "level": "ปริญญาตรี",
+        "curriculum": "น.บ.",
+        "curriculum_type": "ไทย",
+        "c1": 1394,
+        "c2": 51
+      },
+      {
+        "faculty": "20 : คณะนิติศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "น.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 71,
+        "c2": 29
+      },
+      {
+        "faculty": "20 : คณะนิติศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "น.ด.",
+        "curriculum_type": "ไทย",
+        "c1": 5,
+        "c2": 3
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (แอนนิเมชัน)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (การจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ)",
+        "curriculum_type": "ไทย",
+        "c1": 434,
+        "c2": 41
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (การจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 139,
+        "c2": 8
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (วิศวกรรมซอฟต์แวร์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 281,
+        "c2": 37
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (แอนนิเมชันและเกม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (บูรณาการอุตสาหกรรมดิจิทัล)",
+        "curriculum_type": "ไทย",
+        "c1": 123,
+        "c2": 2
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ดิจิทัลเกม)",
+        "curriculum_type": "ไทย",
+        "c1": 162,
+        "c2": null
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (ดิจิทัลเกม)",
+        "curriculum_type": "สองภาษา",
+        "c1": 71,
+        "c2": 8
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (แอนนิเมชันและวิชวลเอฟเฟกต์)",
+        "curriculum_type": "ไทย",
+        "c1": 174,
+        "c2": null
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาตรี",
+        "curriculum": "ศศ.บ. (แอนนิเมชันและวิชวลเอฟเฟกต์)",
+        "curriculum_type": "สองภาษา",
+        "c1": 67,
+        "c2": 12
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การจัดการความรู้)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิศวกรรมซอฟต์แวร์)",
+        "curriculum_type": "ไทย",
+        "c1": 62,
+        "c2": 24
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การจัดการความรู้และนวัตกรรม)",
+        "curriculum_type": "สองภาษา",
+        "c1": 79,
+        "c2": 35
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การจัดการเทคโนโลยีดิจิทัล)",
+        "curriculum_type": "ไทย",
+        "c1": 78,
+        "c2": 41
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (การจัดการความรู้)",
+        "curriculum_type": "ไทย",
+        "c1": 1,
+        "c2": 1
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การจัดการความรู้และนวัตกรรม)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 32,
+        "c2": 12
+      },
+      {
+        "faculty": "21 : วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การจัดการเทคโนโลยีดิจิทัล)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 17,
+        "c2": null
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม.",
+        "curriculum_type": "ไทย",
+        "c1": 72,
+        "c2": 22
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 5,
+        "c2": null
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม. (สุขภาพหนึ่งเดียว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ส.ด.",
+        "curriculum_type": "ไทย",
+        "c1": 35,
+        "c2": 14
+      },
+      {
+        "faculty": "22 : คณะสาธารณสุขศาสตร์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ส.ด.",
+        "curriculum_type": "นานาชาติ",
+        "c1": 10,
+        "c2": 1
+      },
+      {
+        "faculty": "23 : วิทยาลัยการศึกษาและการจัดการทางทะเล",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (นวัตกรรมอาหารและอุตสาหกรรมชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "23 : วิทยาลัยการศึกษาและการจัดการทางทะเล",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นวัตกรรมอาหารและอุตสาหกรรมชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "24 : วิทยาลัยนานาชาตินวัตกรรมดิจิทัล",
+        "level": "ปริญญาตรี",
+        "curriculum": "วท.บ. (นวัตกรรมดิจิทัล)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 433,
+        "c2": 15
+      },
+      {
+        "faculty": "24 : วิทยาลัยนานาชาตินวัตกรรมดิจิทัล",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (นวัตกรรมดิจิทัลและเทคโนโลยีการเงิน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 81,
+        "c2": 45
+      },
+      {
+        "faculty": "24 : วิทยาลัยนานาชาตินวัตกรรมดิจิทัล",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นวัตกรรมดิจิทัลและเทคโนโลยีการเงิน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 60,
+        "c2": 34
+      },
+      {
+        "faculty": "25 : สถาบันนโยบายสาธารณะ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (นโยบายสาธารณะ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 45,
+        "c2": 13
+      },
+      {
+        "faculty": "25 : สถาบันนโยบายสาธารณะ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (นโยบายสาธารณะ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 32,
+        "c2": 14
+      },
+      {
+        "faculty": "26 : สถาบันวิศวกรรมชีวการแพทย์",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมชีวการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 16,
+        "c2": 6
+      },
+      {
+        "faculty": "26 : สถาบันวิศวกรรมชีวการแพทย์",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิศวกรรมชีวการแพทย์)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 11,
+        "c2": 4
+      },
+      {
+        "faculty": "27 : สถาบันวิจัยวิทยาศาสตร์สุขภาพ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (การวิจัยวิทยาศาสตร์สุขภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 18,
+        "c2": 10
+      },
+      {
+        "faculty": "27 : สถาบันวิจัยวิทยาศาสตร์สุขภาพ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (การวิจัยวิทยาศาสตร์สุขภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 33,
+        "c2": 7
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การจัดการและการประเมินโครงการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การออกแบบสื่อ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการมนุษย์กับสิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมไฟฟ้า)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (อาชีวศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภูมิภาคศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การบริหารการพยาบาล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": 26,
+        "c2": 14
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "บช.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีสารสนเทศและการจัดการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (จิตวิทยาการศึกษาและการแนะแนว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สุขภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการอุตสาหกรรมการท่องเที่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (นิติวิทยาศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 16,
+        "c2": 5
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (โภชนศาสตร์ศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การกีฬา)",
+        "curriculum_type": "ไทย",
+        "c1": 38,
+        "c2": 5
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สื่อศิลปะและการออกแบบสื่อ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม. (การจัดการอุตสาหกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการศิลปะและวัฒนธรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมอุตสาหการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม. (สุขภาพหนึ่งเดียว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีและสหวิทยาการจัดการ)",
+        "curriculum_type": "ไทย",
+        "c1": 6,
+        "c2": 6
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สุขภาพจิต)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 20,
+        "c2": 12
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การสอนภาษาจีนร่วมสมัย)",
+        "curriculum_type": "ไทย",
+        "c1": 89,
+        "c2": 59
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.วท.ม. (บูรณาการศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 21,
+        "c2": 6
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": 13,
+        "c2": 9
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์นาโนและเทคโนโลยีนาโน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เศรษฐกิจพอเพียง)  ใช้กับนศรหัส53 (ย้ายสาขาไปรวมคณะเศรษฐศาสตร์ตั้งแต่54)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เทคโนโลยีหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (บูรณาการศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": 26,
+        "c2": null
+      },
+      {
+        "faculty": "28 : วิทยาลัยพหุวิทยาการและสหวิทยาการ",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (สุขภาพจิต)",
+        "curriculum_type": "นานาชาติ",
+        "c1": 3,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การจัดการและการประเมินโครงการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ประกาศนียบัตรบัณฑิต",
+        "curriculum": "ป.บัณฑิต (การออกแบบสื่อ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการมนุษย์กับสิ่งแวดล้อม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมไฟฟ้า)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมเครื่องกล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (อาชีวศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภูมิภาคศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "พย.ม. (การบริหารการพยาบาล)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "บช.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีสารสนเทศและการจัดการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศษ.ม. (จิตวิทยาการศึกษาและการแนะแนว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์สุขภาพ)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการอุตสาหกรรมการท่องเที่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (นิติวิทยาศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (โภชนศาสตร์ศึกษา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์การกีฬา)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (สื่อศิลปะและการออกแบบสื่อ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม.",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "บธ.ม. (การจัดการอุตสาหกรรมเกษตร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (ภาษาอังกฤษ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การจัดการศิลปะและวัฒนธรรม)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วศ.ม. (วิศวกรรมอุตสาหการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ส.ม. (สุขภาพหนึ่งเดียว)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "x",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (เทคโนโลยีและสหวิทยาการจัดการ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "วท.ม. (สุขภาพจิต)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.ม. (การสอนภาษาจีนร่วมสมัย)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาโท",
+        "curriculum": "ศศ.วท.ม. (บูรณาการศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (เทคโนโลยีชีวภาพ)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "วท.ด. (วิทยาการหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (วิทยาศาสตร์นาโนและเทคโนโลยีนาโน)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เศรษฐกิจพอเพียง)  ใช้กับนศรหัส53 (ย้ายสาขาไปรวมคณะเศรษฐศาสตร์ตั้งแต่54)",
+        "curriculum_type": "นานาชาติ",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (เทคโนโลยีหลังการเก็บเกี่ยว)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      },
+      {
+        "faculty": "99 : บัณฑิตวิทยาลัย",
+        "level": "ปริญญาเอก",
+        "curriculum": "ปร.ด. (บูรณาการศาสตร์)",
+        "curriculum_type": "ไทย",
+        "c1": null,
+        "c2": null
+      }
+    ],
+    "order": "ff",
+    "error": ""
+  }
+}

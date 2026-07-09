@@ -1,0 +1,161 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s001016?year=2569&semester=1&semestercurrent=1&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=NP",
+  "endpoint": "data/s001016",
+  "params": {
+    "year": "2569",
+    "semester": "1",
+    "semestercurrent": "1",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "NP"
+  },
+  "fetched_at_utc": "2026-07-09T14:38:44+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ต่ำกว่าปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ป.บัณฑิต",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาโท",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ป.บัณฑิตชั้นสูง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาเอก",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "faculty_name": "01:มนุษยศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "faculty_name": "04:สังคมศาสตร์",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 3
+      },
+      {
+        "faculty_name": "07:แพทยศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "faculty_name": "13:อุตสาหกรรมเกษตร",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 4,
+        "c5": 0,
+        "c6": 0,
+        "c7": 4
+      },
+      {
+        "faculty_name": "14:สัตวแพทยศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "faculty_name": "16:เศรษฐศาสตร์",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "faculty_name": "17:สถาปัตยกรรมศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "faculty_name": "22:สาธารณสุขศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "faculty_name": "28:พหุวิทยาการและสหวิทยาการ",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      }
+    ],
+    "order": "tn",
+    "error": ""
+  }
+}

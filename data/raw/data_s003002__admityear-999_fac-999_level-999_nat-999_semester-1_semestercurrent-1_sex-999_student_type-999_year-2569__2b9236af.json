@@ -1,0 +1,173 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s003002?year=2569&semester=1&semestercurrent=1&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s003002",
+  "params": {
+    "year": "2569",
+    "semester": "1",
+    "semestercurrent": "1",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:53:43+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "3",
+            "colspan": "1"
+          },
+          {
+            "name": "ต่ำกว่าปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ประกาศนียบัตรบัณฑิต",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาโท",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาเอก",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "2",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "2",
+        "iterate": 6,
+        "field": [
+          {
+            "name": "ภาคปกติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "ภาคพิเศษ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "นานาชาติ",
+            "rowspan": "1",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "3",
+        "iterate": 19,
+        "field": [
+          {
+            "name": "ชาย",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "หญิง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวม",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "faculty": "07 : คณะแพทยศาสตร์",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 0,
+        "c8": 0,
+        "c9": 0,
+        "c10": 1,
+        "c11": 0,
+        "c12": 1,
+        "c13": 0,
+        "c14": 0,
+        "c15": 0,
+        "c16": 0,
+        "c17": 0,
+        "c18": 0,
+        "c19": 0,
+        "c20": 0,
+        "c21": 0,
+        "c22": 0,
+        "c23": 0,
+        "c24": 0,
+        "c25": 0,
+        "c26": 0,
+        "c27": 0,
+        "c28": 0,
+        "c29": 0,
+        "c30": 0,
+        "c31": 0,
+        "c32": 0,
+        "c33": 0,
+        "c34": 0,
+        "c35": 0,
+        "c36": 0,
+        "c37": 0,
+        "c38": 0,
+        "c39": 0,
+        "c40": 0,
+        "c41": 0,
+        "c42": 0,
+        "c43": 0,
+        "c44": 0,
+        "c45": 0,
+        "c46": 0,
+        "c47": 0,
+        "c48": 0,
+        "c49": 0,
+        "c50": 0,
+        "c51": 0,
+        "c52": 0,
+        "c53": 0,
+        "c54": 0,
+        "c55": 1,
+        "c56": 0,
+        "c57": 1
+      }
+    ],
+    "order": "sy",
+    "error": ""
+  }
+}

@@ -1,0 +1,13 @@
+table,field,definition
+current_faculty.csv,current_students,Active students by faculty from s001001 latest current semester.
+admission_funnel.csv,issued_total,Students issued CMU student IDs from s002001/s002002.
+admission_funnel.csv,waived_total,Issued-ID students who waived/surrendered admission rights.
+admission_funnel.csv,remaining_total,Issued-ID students remaining after waivers; treated as realized intake.
+admission_funnel.csv,waive_rate,waived_total / issued_total.
+admission_funnel.csv,yield_rate,remaining_total / issued_total.
+historical_students.csv,student_count,"Historical enrolled/resting students by faculty, academic year, and semester from s004001."
+graduates.csv,graduate_count,Graduated students from s003001/s003002/s003003.
+nationality.csv,is_international,True for non-Thai non-administrative nationality codes.
+over_program_students.csv,over_program_rate,over_program_students / current_students from s001010.
+transfer_students.csv,net_transfer,transfer_in - transfer_out from s001017.
+all_stats_long.csv,total_count,Best-effort row total; usually the highest cN column except special risk tables.

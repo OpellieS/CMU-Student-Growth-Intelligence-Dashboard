@@ -1,0 +1,476 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/Getoption",
+  "endpoint": "Getoption",
+  "params": {},
+  "fetched_at_utc": "2026-07-09T08:53:08+00:00",
+  "payload": {
+    "app_semester": [
+      {
+        "semester": "1",
+        "year": "2569"
+      }
+    ],
+    "faculty": [
+      {
+        "faculty_id": "01",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "มนุษยศาสตร์"
+      },
+      {
+        "faculty_id": "02",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "ศึกษาศาสตร์"
+      },
+      {
+        "faculty_id": "03",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "วิจิตรศิลป์"
+      },
+      {
+        "faculty_id": "04",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "สังคมศาสตร์"
+      },
+      {
+        "faculty_id": "05",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "วิทยาศาสตร์"
+      },
+      {
+        "faculty_id": "06",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "วิศวกรรมศาสตร์"
+      },
+      {
+        "faculty_id": "07",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "แพทยศาสตร์"
+      },
+      {
+        "faculty_id": "08",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "เกษตรศาสตร์"
+      },
+      {
+        "faculty_id": "09",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "ทันตแพทยศาสตร์"
+      },
+      {
+        "faculty_id": "10",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "เภสัชศาสตร์"
+      },
+      {
+        "faculty_id": "11",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "เทคนิคการแพทย์"
+      },
+      {
+        "faculty_id": "12",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "พยาบาลศาสตร์"
+      },
+      {
+        "faculty_id": "13",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "อุตสาหกรรมเกษตร"
+      },
+      {
+        "faculty_id": "14",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "สัตวแพทยศาสตร์"
+      },
+      {
+        "faculty_id": "15",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "บริหารธุรกิจ"
+      },
+      {
+        "faculty_id": "16",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "เศรษฐศาสตร์"
+      },
+      {
+        "faculty_id": "17",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "สถาปัตยกรรมศาสตร์"
+      },
+      {
+        "faculty_id": "18",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "การสื่อสารมวลชน"
+      },
+      {
+        "faculty_id": "19",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "รัฐศาสตร์และรัฐประศาสนศาสตร์"
+      },
+      {
+        "faculty_id": "20",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "นิติศาสตร์"
+      },
+      {
+        "faculty_id": "21",
+        "faculty_prefix": "วิทยาลัย",
+        "faculty_name": "ศิลปะ สื่อ และเทคโนโลยี"
+      },
+      {
+        "faculty_id": "25",
+        "faculty_prefix": "สถาบัน",
+        "faculty_name": "นโยบายสาธารณะ"
+      },
+      {
+        "faculty_id": "26",
+        "faculty_prefix": "สถาบัน",
+        "faculty_name": "วิศวกรรมชีวการแพทย์"
+      },
+      {
+        "faculty_id": "22",
+        "faculty_prefix": "คณะ",
+        "faculty_name": "สาธารณสุขศาสตร์"
+      },
+      {
+        "faculty_id": "23",
+        "faculty_prefix": "วิทยาลัย",
+        "faculty_name": "การศึกษาและการจัดการทางทะเล"
+      },
+      {
+        "faculty_id": "24",
+        "faculty_prefix": "วิทยาลัย",
+        "faculty_name": "นานาชาตินวัตกรรมดิจิทัล"
+      },
+      {
+        "faculty_id": "95",
+        "faculty_prefix": "วิทยาลัย",
+        "faculty_name": "การศึกษาตลอดชีวิต"
+      },
+      {
+        "faculty_id": "27",
+        "faculty_prefix": "สถาบัน",
+        "faculty_name": "วิจัยวิทยาศาสตร์สุขภาพ"
+      },
+      {
+        "faculty_id": "28",
+        "faculty_prefix": "วิทยาลัย",
+        "faculty_name": "พหุวิทยาการและสหวิทยาการ"
+      }
+    ],
+    "national": [
+      {
+        "national_id": "AR",
+        "national_name": "อาร์เจนตินา"
+      },
+      {
+        "national_id": "AT",
+        "national_name": "ออสเตรีย"
+      },
+      {
+        "national_id": "AU",
+        "national_name": "ออสเตรเลีย"
+      },
+      {
+        "national_id": "BD",
+        "national_name": "บังกลาเทศ"
+      },
+      {
+        "national_id": "BE",
+        "national_name": "เบลเยียม"
+      },
+      {
+        "national_id": "BN",
+        "national_name": "บรูไน"
+      },
+      {
+        "national_id": "BQ",
+        "national_name": "โบแนนเรอ"
+      },
+      {
+        "national_id": "BR",
+        "national_name": "บราซิล"
+      },
+      {
+        "national_id": "BS",
+        "national_name": "บาฮามาส"
+      },
+      {
+        "national_id": "BT",
+        "national_name": "ภูฏาน"
+      },
+      {
+        "national_id": "CA",
+        "national_name": "แคนาดา"
+      },
+      {
+        "national_id": "CH",
+        "national_name": "สวิตเซอร์แลนด์"
+      },
+      {
+        "national_id": "CN",
+        "national_name": "จีน"
+      },
+      {
+        "national_id": "DE",
+        "national_name": "เยอรมนี"
+      },
+      {
+        "national_id": "DZ",
+        "national_name": "แอลจีเรีย"
+      },
+      {
+        "national_id": "EG",
+        "national_name": "อียิปต์"
+      },
+      {
+        "national_id": "ES",
+        "national_name": "สเปน"
+      },
+      {
+        "national_id": "ET",
+        "national_name": "เอธิโอเปีย"
+      },
+      {
+        "national_id": "FR",
+        "national_name": "ฝรั่งเศส"
+      },
+      {
+        "national_id": "GB",
+        "national_name": "สหราชอาณาจักร"
+      },
+      {
+        "national_id": "GH",
+        "national_name": "กานา"
+      },
+      {
+        "national_id": "HK",
+        "national_name": "ฮ่องกง"
+      },
+      {
+        "national_id": "ID",
+        "national_name": "อินโดนีเซีย"
+      },
+      {
+        "national_id": "IE",
+        "national_name": "ไอร์แลนด์"
+      },
+      {
+        "national_id": "IL",
+        "national_name": "อิสราเอล"
+      },
+      {
+        "national_id": "IN",
+        "national_name": "อินเดีย"
+      },
+      {
+        "national_id": "IO",
+        "national_name": "บริติชอินเดียนโอเชียนเทร์ริทอรี"
+      },
+      {
+        "national_id": "IR",
+        "national_name": "อิหร่าน"
+      },
+      {
+        "national_id": "IT",
+        "national_name": "อิตาลี"
+      },
+      {
+        "national_id": "JM",
+        "national_name": "จาเมกา"
+      },
+      {
+        "national_id": "JO",
+        "national_name": "จอร์แดน"
+      },
+      {
+        "national_id": "JP",
+        "national_name": "ญี่ปุ่น"
+      },
+      {
+        "national_id": "KE",
+        "national_name": "เคนยา"
+      },
+      {
+        "national_id": "KH",
+        "national_name": "กัมพูชา"
+      },
+      {
+        "national_id": "KR",
+        "national_name": "เกาหลีใต้"
+      },
+      {
+        "national_id": "KZ",
+        "national_name": "คาซัคสถาน"
+      },
+      {
+        "national_id": "LA",
+        "national_name": "ลาว"
+      },
+      {
+        "national_id": "LB",
+        "national_name": "เลบานอน"
+      },
+      {
+        "national_id": "LK",
+        "national_name": "ศรีลังกา"
+      },
+      {
+        "national_id": "LR",
+        "national_name": "ไลบีเรีย"
+      },
+      {
+        "national_id": "MA",
+        "national_name": "โมร็อกโก"
+      },
+      {
+        "national_id": "MM",
+        "national_name": "เมียนมา"
+      },
+      {
+        "national_id": "MN",
+        "national_name": "มองโกเลีย"
+      },
+      {
+        "national_id": "MV",
+        "national_name": "มัลดีฟส์"
+      },
+      {
+        "national_id": "MW",
+        "national_name": "มาลาวี"
+      },
+      {
+        "national_id": "MX",
+        "national_name": "เม็กซิโก"
+      },
+      {
+        "national_id": "MY",
+        "national_name": "มาเลเซีย"
+      },
+      {
+        "national_id": "NA",
+        "national_name": "นามิเบีย"
+      },
+      {
+        "national_id": "NE",
+        "national_name": "ไนเจอร์"
+      },
+      {
+        "national_id": "NG",
+        "national_name": "ไนจีเรีย"
+      },
+      {
+        "national_id": "NL",
+        "national_name": "เนเธอร์แลนด์"
+      },
+      {
+        "national_id": "NO",
+        "national_name": "นอร์เวย์"
+      },
+      {
+        "national_id": "NP",
+        "national_name": "เนปาล"
+      },
+      {
+        "national_id": "PE",
+        "national_name": "เปรู"
+      },
+      {
+        "national_id": "PH",
+        "national_name": "ฟิลิปปินส์"
+      },
+      {
+        "national_id": "PK",
+        "national_name": "ปากีสถาน"
+      },
+      {
+        "national_id": "PS",
+        "national_name": "ปาเลสไตน์"
+      },
+      {
+        "national_id": "RU",
+        "national_name": "รัสเซีย"
+      },
+      {
+        "national_id": "SA",
+        "national_name": "ซาอุดีอาระเบีย"
+      },
+      {
+        "national_id": "SE",
+        "national_name": "สวีเดน"
+      },
+      {
+        "national_id": "SG",
+        "national_name": "สิงคโปร์"
+      },
+      {
+        "national_id": "TF",
+        "national_name": "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนส์"
+      },
+      {
+        "national_id": "TH",
+        "national_name": "ไทย"
+      },
+      {
+        "national_id": "TM",
+        "national_name": "เติร์กเมนิสถาน"
+      },
+      {
+        "national_id": "TR",
+        "national_name": "ตุรกี"
+      },
+      {
+        "national_id": "TW",
+        "national_name": "ไต้หวัน"
+      },
+      {
+        "national_id": "TZ",
+        "national_name": "แทนซาเนีย"
+      },
+      {
+        "national_id": "UG",
+        "national_name": "ยูกันดา"
+      },
+      {
+        "national_id": "US",
+        "national_name": "สหรัฐอเมริกา"
+      },
+      {
+        "national_id": "VN",
+        "national_name": "เวียดนาม"
+      },
+      {
+        "national_id": "XX",
+        "national_name": "ไร้สัญชาติ"
+      },
+      {
+        "national_id": "XY",
+        "national_name": "บุคคลที่ไม่มีสถานะทางทะเบียน"
+      },
+      {
+        "national_id": "XZ",
+        "national_name": "บุคคลซึ่งไม่มีสัญชาติไทย"
+      },
+      {
+        "national_id": "ZM",
+        "national_name": "แซมเบีย"
+      },
+      {
+        "national_id": "ZW",
+        "national_name": "ซิมบับเว"
+      },
+      {
+        "national_id": "ZX",
+        "national_name": "ไม่ได้สัญชาติไทย"
+      },
+      {
+        "national_id": "ZY",
+        "national_name": "บุคคลที่ไม่มีสถานะทางทะเบียน"
+      },
+      {
+        "national_id": "ZZ",
+        "national_name": "ไม่ระบุ"
+      }
+    ]
+  }
+}

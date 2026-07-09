@@ -1,0 +1,110 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s004005?year=2569&semester=2&semestercurrent=2&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s004005",
+  "params": {
+    "year": "2569",
+    "semester": "2",
+    "semestercurrent": "2",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:54:02+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "2",
+            "colspan": "1"
+          },
+          {
+            "name": "ระดับการศึกษา",
+            "rowspan": "2",
+            "colspan": "1"
+          },
+          {
+            "name": "สาขาวิชา",
+            "rowspan": "2",
+            "colspan": "1"
+          },
+          {
+            "name": "ปีที่นักศึกษาเข้าศึกษา (รหัส)",
+            "rowspan": "1",
+            "colspan": "11"
+          }
+        ]
+      },
+      {
+        "row": "2",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "{{p}}-9",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-8",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-7",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-6",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-5",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-4",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-3",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-2",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}-1",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "{{p}}",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวม",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "order": "ppppppppppcycycycycycyyyycycycycycycycycycycycycycyocycoyf",
+    "error": "past_filter"
+  }
+}

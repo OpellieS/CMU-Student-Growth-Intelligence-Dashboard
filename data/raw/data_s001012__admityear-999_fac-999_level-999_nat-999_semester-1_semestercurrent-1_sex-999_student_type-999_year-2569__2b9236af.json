@@ -1,0 +1,912 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s001012?year=2569&semester=1&semestercurrent=1&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s001012",
+  "params": {
+    "year": "2569",
+    "semester": "1",
+    "semestercurrent": "1",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:53:15+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "รหัสสัญชาติ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "สัญชาติ",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ต่ำกว่าปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ป.บัณฑิต",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาโท",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ป.บัณฑิตชั้นสูง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "ปริญญาเอก",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "nationality_id_for_check": "AR",
+        "nationality_th": "อาร์เจนตินา (Argentine)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "AT",
+        "nationality_th": "ออสเตรีย (Austrian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "AU",
+        "nationality_th": "ออสเตรเลีย (Australian)",
+        "c1": 0,
+        "c2": 4,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 5
+      },
+      {
+        "nationality_id_for_check": "BD",
+        "nationality_th": "บังกลาเทศ (Bangladeshi)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 5,
+        "c5": 0,
+        "c6": 6,
+        "c7": 13
+      },
+      {
+        "nationality_id_for_check": "BE",
+        "nationality_th": "เบลเยียม (Belgian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "BN",
+        "nationality_th": "บรูไน (Bruneian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "BR",
+        "nationality_th": "บราซิล (Brazilian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "BS",
+        "nationality_th": "บาฮามาส (Bahameese)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "BT",
+        "nationality_th": "ภูฏาน (Bhutanese)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 3,
+        "c5": 0,
+        "c6": 0,
+        "c7": 4
+      },
+      {
+        "nationality_id_for_check": "CA",
+        "nationality_th": "แคนาดา (Canadian)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "CH",
+        "nationality_th": "สวิตเซอร์แลนด์ (Swiss)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "CN",
+        "nationality_th": "จีน (Chinese)",
+        "c1": 0,
+        "c2": 537,
+        "c3": 0,
+        "c4": 404,
+        "c5": 0,
+        "c6": 305,
+        "c7": 1246
+      },
+      {
+        "nationality_id_for_check": "DE",
+        "nationality_th": "เยอรมนี (German)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 1,
+        "c7": 4
+      },
+      {
+        "nationality_id_for_check": "DZ",
+        "nationality_th": "แอลจีเรีย (Algerian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "ES",
+        "nationality_th": "สเปน (Spanish)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "ET",
+        "nationality_th": "เอธิโอเปีย (Ethiopian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "FR",
+        "nationality_th": "ฝรั่งเศส (French)",
+        "c1": 0,
+        "c2": 4,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 5
+      },
+      {
+        "nationality_id_for_check": "GB",
+        "nationality_th": "สหราชอาณาจักร (British)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "GH",
+        "nationality_th": "กานา (Ghanaian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 2,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "HK",
+        "nationality_th": "ฮ่องกง (Chinese (Hong Kong))",
+        "c1": 0,
+        "c2": 4,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 6
+      },
+      {
+        "nationality_id_for_check": "ID",
+        "nationality_th": "อินโดนีเซีย (Indonesian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 17,
+        "c5": 0,
+        "c6": 18,
+        "c7": 36
+      },
+      {
+        "nationality_id_for_check": "IE",
+        "nationality_th": "ไอร์แลนด์ (Irish)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "IL",
+        "nationality_th": "อิสราเอล (Israeli)",
+        "c1": 0,
+        "c2": 3,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "IN",
+        "nationality_th": "อินเดีย (Indian)",
+        "c1": 0,
+        "c2": 5,
+        "c3": 0,
+        "c4": 5,
+        "c5": 0,
+        "c6": 10,
+        "c7": 20
+      },
+      {
+        "nationality_id_for_check": "IO",
+        "nationality_th": "บริติชอินเดียนโอเชียนเทร์ริทอรี (British Indian Ocean Territory)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "IR",
+        "nationality_th": "อิหร่าน (Iranian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "IT",
+        "nationality_th": "อิตาลี (Italian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "JM",
+        "nationality_th": "จาเมกา (Jamaican)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "JO",
+        "nationality_th": "จอร์แดน (Jordanian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "JP",
+        "nationality_th": "ญี่ปุ่น (Japanese)",
+        "c1": 0,
+        "c2": 11,
+        "c3": 0,
+        "c4": 8,
+        "c5": 0,
+        "c6": 1,
+        "c7": 20
+      },
+      {
+        "nationality_id_for_check": "KE",
+        "nationality_th": "เคนยา (Kenyan)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 2,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "KH",
+        "nationality_th": "กัมพูชา (Cambodian)",
+        "c1": 0,
+        "c2": 3,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 1,
+        "c7": 6
+      },
+      {
+        "nationality_id_for_check": "KR",
+        "nationality_th": "เกาหลีใต้ (South Korean)",
+        "c1": 0,
+        "c2": 7,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 8
+      },
+      {
+        "nationality_id_for_check": "KZ",
+        "nationality_th": "คาซัคสถาน (Kazakhstani)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "LA",
+        "nationality_th": "ลาว (Lao)",
+        "c1": 0,
+        "c2": 6,
+        "c3": 0,
+        "c4": 19,
+        "c5": 0,
+        "c6": 5,
+        "c7": 30
+      },
+      {
+        "nationality_id_for_check": "LB",
+        "nationality_th": "เลบานอน (Lebanese)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "LK",
+        "nationality_th": "ศรีลังกา (Sri Lankan)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 5,
+        "c7": 6
+      },
+      {
+        "nationality_id_for_check": "LR",
+        "nationality_th": "ไลบีเรีย (Liberian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "MA",
+        "nationality_th": "โมร็อกโก (Moroccan)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 2,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "MM",
+        "nationality_th": "เมียนมา (Myanmar)",
+        "c1": 0,
+        "c2": 570,
+        "c3": 0,
+        "c4": 237,
+        "c5": 0,
+        "c6": 82,
+        "c7": 889
+      },
+      {
+        "nationality_id_for_check": "MN",
+        "nationality_th": "มองโกเลีย (Mongolian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "MV",
+        "nationality_th": "มัลดีฟส์ (Maldivan)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 3,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "MW",
+        "nationality_th": "มาลาวี (Malawian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "MX",
+        "nationality_th": "เม็กซิโก (Mexican)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "MY",
+        "nationality_th": "มาเลเซีย (Malaysian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 4,
+        "c5": 0,
+        "c6": 0,
+        "c7": 4
+      },
+      {
+        "nationality_id_for_check": "NA",
+        "nationality_th": "นามิเบีย (Namibian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "NE",
+        "nationality_th": "ไนเจอร์ (Nigerian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 5,
+        "c7": 6
+      },
+      {
+        "nationality_id_for_check": "NG",
+        "nationality_th": "ไนจีเรีย (Nigerian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 5,
+        "c5": 0,
+        "c6": 5,
+        "c7": 11
+      },
+      {
+        "nationality_id_for_check": "NL",
+        "nationality_th": "เนเธอร์แลนด์ (Dutch)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "NO",
+        "nationality_th": "นอร์เวย์ (Norwegian)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "NP",
+        "nationality_th": "เนปาล (Nepalese)",
+        "c1": 0,
+        "c2": 3,
+        "c3": 0,
+        "c4": 11,
+        "c5": 0,
+        "c6": 1,
+        "c7": 15
+      },
+      {
+        "nationality_id_for_check": "PE",
+        "nationality_th": "เปรู (Peruvian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "PH",
+        "nationality_th": "ฟิลิปปินส์ (Filipino)",
+        "c1": 0,
+        "c2": 10,
+        "c3": 0,
+        "c4": 7,
+        "c5": 0,
+        "c6": 3,
+        "c7": 20
+      },
+      {
+        "nationality_id_for_check": "PK",
+        "nationality_th": "ปากีสถาน (Pakistani)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 13,
+        "c5": 0,
+        "c6": 17,
+        "c7": 30
+      },
+      {
+        "nationality_id_for_check": "PS",
+        "nationality_th": "ปาเลสไตน์ (Palestinian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "RU",
+        "nationality_th": "รัสเซีย (Russian)",
+        "c1": 0,
+        "c2": 3,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 4,
+        "c7": 7
+      },
+      {
+        "nationality_id_for_check": "SA",
+        "nationality_th": "ซาอุดีอาระเบีย (Saudi Arabian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "SE",
+        "nationality_th": "สวีเดน (Swedish)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "SG",
+        "nationality_th": "สิงคโปร์ (Singaporean)",
+        "c1": 0,
+        "c2": 6,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 7
+      },
+      {
+        "nationality_id_for_check": "TF",
+        "nationality_th": "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนส์ (French)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "TH",
+        "nationality_th": "ไทย (Thai)",
+        "c1": 142,
+        "c2": 34516,
+        "c3": 102,
+        "c4": 4023,
+        "c5": 38,
+        "c6": 944,
+        "c7": 39765
+      },
+      {
+        "nationality_id_for_check": "TM",
+        "nationality_th": "เติร์กเมนิสถาน (Turkmen)",
+        "c1": 0,
+        "c2": 1,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "TR",
+        "nationality_th": "ตุรกี (Turkish)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "TW",
+        "nationality_th": "ไต้หวัน (Taiwan)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 1,
+        "c7": 5
+      },
+      {
+        "nationality_id_for_check": "TZ",
+        "nationality_th": "แทนซาเนีย (Tanzanian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 0,
+        "c5": 0,
+        "c6": 1,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "UG",
+        "nationality_th": "ยูกันดา (Ugandan)",
+        "c1": 0,
+        "c2": 3,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 4
+      },
+      {
+        "nationality_id_for_check": "US",
+        "nationality_th": "สหรัฐอเมริกา (American)",
+        "c1": 0,
+        "c2": 18,
+        "c3": 0,
+        "c4": 5,
+        "c5": 0,
+        "c6": 9,
+        "c7": 32
+      },
+      {
+        "nationality_id_for_check": "VN",
+        "nationality_th": "เวียดนาม (Vietnamese)",
+        "c1": 0,
+        "c2": 2,
+        "c3": 0,
+        "c4": 9,
+        "c5": 0,
+        "c6": 14,
+        "c7": 25
+      },
+      {
+        "nationality_id_for_check": "XX",
+        "nationality_th": "ไร้สัญชาติ (Stateless)",
+        "c1": 1,
+        "c2": 70,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 72
+      },
+      {
+        "nationality_id_for_check": "XY",
+        "nationality_th": "บุคคลที่ไม่มีสถานะทางทะเบียน (The unregistered person)",
+        "c1": 0,
+        "c2": 59,
+        "c3": 0,
+        "c4": 2,
+        "c5": 0,
+        "c6": 0,
+        "c7": 61
+      },
+      {
+        "nationality_id_for_check": "XZ",
+        "nationality_th": "บุคคลซึ่งไม่มีสัญชาติไทย (Alien)",
+        "c1": 1,
+        "c2": 44,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 46
+      },
+      {
+        "nationality_id_for_check": "ZM",
+        "nationality_th": "แซมเบีย (Zambian)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 3,
+        "c5": 0,
+        "c6": 0,
+        "c7": 3
+      },
+      {
+        "nationality_id_for_check": "ZW",
+        "nationality_th": "ซิมบับเว (Zimbabwean)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 1,
+        "c7": 2
+      },
+      {
+        "nationality_id_for_check": "ZX",
+        "nationality_th": "ไม่ได้สัญชาติไทย (Non-Thai citizen)",
+        "c1": 0,
+        "c2": 70,
+        "c3": 0,
+        "c4": 5,
+        "c5": 0,
+        "c6": 0,
+        "c7": 75
+      },
+      {
+        "nationality_id_for_check": "ZY",
+        "nationality_th": "บุคคลที่ไม่มีสถานะทางทะเบียน (The unregistered person)",
+        "c1": 0,
+        "c2": 0,
+        "c3": 0,
+        "c4": 1,
+        "c5": 0,
+        "c6": 0,
+        "c7": 1
+      },
+      {
+        "nationality_id_for_check": "ZZ",
+        "nationality_th": "ไม่ระบุ (N/A)",
+        "c1": 1,
+        "c2": 17,
+        "c3": 0,
+        "c4": 3,
+        "c5": 0,
+        "c6": 0,
+        "c7": 21
+      }
+    ],
+    "order": "af",
+    "error": ""
+  }
+}

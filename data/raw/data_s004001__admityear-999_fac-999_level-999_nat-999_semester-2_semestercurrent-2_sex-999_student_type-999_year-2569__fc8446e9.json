@@ -1,0 +1,75 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s004001?year=2569&semester=2&semestercurrent=2&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s004001",
+  "params": {
+    "year": "2569",
+    "semester": "2",
+    "semestercurrent": "2",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:54:01+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "2",
+            "colspan": "1"
+          },
+          {
+            "name": "ภาคปกติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "ภาคพิเศษ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "นานาชาติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "1",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "2",
+        "iterate": 4,
+        "field": [
+          {
+            "name": "ชาย",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "หญิง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวม",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "order": "cycycycycycyyyycycycycycycycycycycycycycyaaocyacoyl",
+    "error": "past_filter"
+  }
+}

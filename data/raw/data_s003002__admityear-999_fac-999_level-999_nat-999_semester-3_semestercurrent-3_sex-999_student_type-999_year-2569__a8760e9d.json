@@ -1,0 +1,112 @@
+{
+  "source": "official_json_api",
+  "source_url": "https://api-statistic.reg.cmu.ac.th/v1/data/s003002?year=2569&semester=3&semestercurrent=3&admityear=999&fac=999&level=999&sex=999&student_type=999&nat=999",
+  "endpoint": "data/s003002",
+  "params": {
+    "year": "2569",
+    "semester": "3",
+    "semestercurrent": "3",
+    "admityear": "999",
+    "fac": "999",
+    "level": "999",
+    "sex": "999",
+    "student_type": "999",
+    "nat": "999"
+  },
+  "fetched_at_utc": "2026-07-09T08:53:46+00:00",
+  "payload": {
+    "header": [
+      {
+        "row": "1",
+        "iterate": 1,
+        "field": [
+          {
+            "name": "คณะ",
+            "rowspan": "3",
+            "colspan": "1"
+          },
+          {
+            "name": "ต่ำกว่าปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาตรี",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ประกาศนียบัตรบัณฑิต",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาโท",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ประกาศนียบัตรบัณฑิตชั้นสูง",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "ปริญญาเอก",
+            "rowspan": "1",
+            "colspan": "9"
+          },
+          {
+            "name": "รวมทั้งหมด",
+            "rowspan": "2",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "2",
+        "iterate": 6,
+        "field": [
+          {
+            "name": "ภาคปกติ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "ภาคพิเศษ",
+            "rowspan": "1",
+            "colspan": "3"
+          },
+          {
+            "name": "นานาชาติ",
+            "rowspan": "1",
+            "colspan": "3"
+          }
+        ]
+      },
+      {
+        "row": "3",
+        "iterate": 19,
+        "field": [
+          {
+            "name": "ชาย",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "หญิง",
+            "rowspan": "1",
+            "colspan": "1"
+          },
+          {
+            "name": "รวม",
+            "rowspan": "1",
+            "colspan": "1"
+          }
+        ]
+      }
+    ],
+    "data": [],
+    "order": "sy",
+    "error": ""
+  }
+}

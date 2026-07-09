@@ -1,0 +1,77 @@
+nationality_id,iso_alpha3,nationality_name,is_international,student_count,param_year,param_semester,source_file
+TH,THA,ไทย (Thai),False,39765.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+CN,CHN,จีน (Chinese),True,1246.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MM,MMR,เมียนมา (Myanmar),True,889.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ZX,ZX,ไม่ได้สัญชาติไทย (Non-Thai citizen),False,75.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+XX,XX,ไร้สัญชาติ (Stateless),False,72.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+XY,XY,บุคคลที่ไม่มีสถานะทางทะเบียน (The unregistered person),False,61.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+XZ,XZ,บุคคลซึ่งไม่มีสัญชาติไทย (Alien),False,46.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ID,IDN,อินโดนีเซีย (Indonesian),True,36.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+US,USA,สหรัฐอเมริกา (American),True,32.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+PK,PAK,ปากีสถาน (Pakistani),True,30.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+LA,LAO,ลาว (Lao),True,30.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+VN,VNM,เวียดนาม (Vietnamese),True,25.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ZZ,ZZ,ไม่ระบุ (N/A),False,21.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+JP,JPN,ญี่ปุ่น (Japanese),True,20.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+PH,PHL,ฟิลิปปินส์ (Filipino),True,20.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IN,IND,อินเดีย (Indian),True,20.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NP,NPL,เนปาล (Nepalese),True,15.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BD,BGD,บังกลาเทศ (Bangladeshi),True,13.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NG,NGA,ไนจีเรีย (Nigerian),True,11.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+KR,KOR,เกาหลีใต้ (South Korean),True,8.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+SG,SGP,สิงคโปร์ (Singaporean),True,7.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+RU,RUS,รัสเซีย (Russian),True,7.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+LK,LKA,ศรีลังกา (Sri Lankan),True,6.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+HK,HKG,ฮ่องกง (Chinese (Hong Kong)),True,6.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NE,NER,ไนเจอร์ (Nigerian),True,6.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+KH,KHM,กัมพูชา (Cambodian),True,6.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+FR,FRA,ฝรั่งเศส (French),True,5.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+TW,TWN,ไต้หวัน (Taiwan),True,5.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+AU,AUS,ออสเตรเลีย (Australian),True,5.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+UG,UGA,ยูกันดา (Ugandan),True,4.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MY,MYS,มาเลเซีย (Malaysian),True,4.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+DE,DEU,เยอรมนี (German),True,4.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BT,BTN,ภูฏาน (Bhutanese),True,4.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IL,ISR,อิสราเอล (Israeli),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+GH,GHA,กานา (Ghanaian),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+GB,GBR,สหราชอาณาจักร (British),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+CA,CAN,แคนาดา (Canadian),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ZM,ZMB,แซมเบีย (Zambian),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MV,MDV,มัลดีฟส์ (Maldivan),True,3.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+TM,TKM,เติร์กเมนิสถาน (Turkmen),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NL,NLD,เนเธอร์แลนด์ (Dutch),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ZW,ZWE,ซิมบับเว (Zimbabwean),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MA,MAR,โมร็อกโก (Moroccan),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+KZ,KAZ,คาซัคสถาน (Kazakhstani),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+KE,KEN,เคนยา (Kenyan),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IT,ITA,อิตาลี (Italian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MW,MWI,มาลาวี (Malawian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IE,IRL,ไอร์แลนด์ (Irish),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ET,ETH,เอธิโอเปีย (Ethiopian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+JO,JOR,จอร์แดน (Jordanian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IR,IRN,อิหร่าน (Iranian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+CH,CHE,สวิตเซอร์แลนด์ (Swiss),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BE,BEL,เบลเยียม (Belgian),True,2.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+DZ,DZA,แอลจีเรีย (Algerian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+IO,IOT,บริติชอินเดียนโอเชียนเทร์ริทอรี (British Indian Ocean Territory),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ES,ESP,สเปน (Spanish),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BS,BHS,บาฮามาส (Bahameese),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BR,BRA,บราซิล (Brazilian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+BN,BRN,บรูไน (Bruneian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+TZ,TZA,แทนซาเนีย (Tanzanian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+ZY,ZY,บุคคลที่ไม่มีสถานะทางทะเบียน (The unregistered person),False,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MX,MEX,เม็กซิโก (Mexican),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+TF,ATF,เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนส์ (French),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+TR,TUR,ตุรกี (Turkish),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+JM,JAM,จาเมกา (Jamaican),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+SE,SWE,สวีเดน (Swedish),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+SA,SAU,ซาอุดีอาระเบีย (Saudi Arabian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+PS,PSE,ปาเลสไตน์ (Palestinian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+PE,PER,เปรู (Peruvian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+LB,LBN,เลบานอน (Lebanese),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NO,NOR,นอร์เวย์ (Norwegian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+LR,LBR,ไลบีเรีย (Liberian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+AT,AUT,ออสเตรีย (Austrian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+MN,MNG,มองโกเลีย (Mongolian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+NA,NAM,นามิเบีย (Namibian),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
+AR,ARG,อาร์เจนตินา (Argentine),True,1.0,2569,1,data_s001012__admityear-999_fac-999_level-999_nat-999_semester-1_semestercurrent-1_sex-999_student_type-999_year-2569__2b9236af.json
