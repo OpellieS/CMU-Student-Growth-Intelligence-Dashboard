@@ -34,7 +34,12 @@ def read_table(name: str) -> pd.DataFrame:
     path = PROCESSED_DIR / TABLES[name]
     if not path.exists():
         return pd.DataFrame()
-    return pd.read_csv(path)
+    try:
+        return pd.read_csv(path)
+    except Exception as exc:
+        df = pd.DataFrame()
+        df.attrs["load_error"] = f"{path.relative_to(PROJECT_ROOT)} could not be loaded: {exc}"
+        return df
 
 
 def load_data() -> dict[str, pd.DataFrame]:

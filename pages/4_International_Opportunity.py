@@ -13,7 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.metrics import faculty_metrics, load_data
-from src.ui import apply_theme, data_missing_warning, page_header
+from src.ui import apply_theme, data_missing_warning, display_dataframe, explain, page_header
 
 
 st.set_page_config(page_title="International Opportunity", layout="wide")
@@ -28,7 +28,10 @@ def cached_data():
 data = cached_data()
 nationality = data["nationality"].copy()
 nat_fac = data["nationality_faculty"].copy()
-page_header("International Opportunity", "Nationality mix, faculty concentration, and international growth opportunity.")
+page_header("International Opportunity / โอกาสนักศึกษานานาชาติ", "Nationality mix, faculty concentration, and international growth opportunity.")
+explain(
+    "This page shows where international students currently come from and which faculties may have room to grow international recruitment."
+)
 data_missing_warning({"nationality": nationality})
 
 if nationality.empty:
@@ -41,6 +44,7 @@ intl = nationality.loc[nationality["is_international_bool"]].copy()
 left, right = st.columns([1.15, 0.85])
 with left:
     st.subheader("Choropleth by Nationality / แผนที่สัญชาติ")
+    explain("Darker countries have more current CMU students by nationality.")
     map_df = intl.loc[intl["iso_alpha3"].notna() & intl["student_count"].gt(0)]
     fig = px.choropleth(
         map_df,
@@ -49,12 +53,14 @@ with left:
         hover_name="nationality_name",
         color_continuous_scale=["#F5F1FA", "#6E35A7", "#4B1D80"],
         labels={"student_count": "Students"},
+        hover_data={"student_count": ":,.0f", "iso_alpha3": False},
     )
-    fig.update_layout(height=520, margin=dict(l=10, r=10, t=30, b=10))
+    fig.update_layout(title="International Students by Nationality", height=520, margin=dict(l=10, r=10, t=50, b=10))
     st.plotly_chart(fig, width="stretch")
 
 with right:
     st.subheader("Top 10 International Nationalities")
+    explain("Largest nationality groups can guide recruitment, partnerships, and student-support language planning.")
     top = intl.sort_values("student_count", ascending=False).head(10)
     fig = px.bar(
         top,
@@ -64,11 +70,13 @@ with right:
         color="student_count",
         color_continuous_scale=["#F5F1FA", "#4B1D80"],
         labels={"student_count": "Students", "nationality_name": "Nationality"},
+        hover_data={"student_count": ":,.0f"},
     )
-    fig.update_layout(height=520, yaxis={"categoryorder": "total ascending"})
+    fig.update_layout(title="Top International Nationality Groups", height=520, yaxis={"categoryorder": "total ascending"}, margin=dict(l=10, r=10, t=50, b=10))
     st.plotly_chart(fig, width="stretch")
 
-st.subheader("Nationality x Faculty Heatmap")
+st.subheader("Nationality x Faculty Heatmap / สัญชาติ x คณะ")
+explain("This heatmap shows which faculties already attract students from each major international nationality group.")
 if nat_fac.empty or not {"faculty_name", "nationality_name", "student_count"}.issubset(nat_fac.columns):
     st.info("Nationality-faculty detail is missing. Run `python -m src.scrape` and `python -m src.clean` to cache nationality-specific faculty tables.")
 else:
@@ -84,10 +92,11 @@ else:
         color_continuous_scale=["#F5F1FA", "#6E35A7", "#4B1D80"],
         labels={"x": "Nationality", "y": "Faculty", "color": "Students"},
     )
-    fig.update_layout(height=560, margin=dict(l=10, r=10, t=30, b=10))
+    fig.update_layout(title="Faculty Concentration by Nationality", height=560, margin=dict(l=10, r=10, t=50, b=10))
     st.plotly_chart(fig, width="stretch")
 
-st.subheader("International Opportunity Score")
+st.subheader("International Opportunity Score / คะแนนโอกาสนานาชาติ")
+explain("The score is higher for faculties that are large, have relatively low international share, and still show growth momentum.")
 fm = faculty_metrics(data)
 if fm.empty:
     st.info("Faculty metrics are missing.")
@@ -100,6 +109,14 @@ else:
     show = work.sort_values("international_opportunity_score", ascending=False)[
         ["faculty_name", "current_students", "international_program_share", "growth_rate", "international_opportunity_score"]
     ].head(20)
-    st.dataframe(show, width="stretch", hide_index=True)
+    display_dataframe(show)
 
-st.caption("International share uses nationality when available; faculty-level score uses international-program share as a proxy because nationality-by-faculty labels may be sparse.")
+with st.expander("About this score / คำอธิบายคะแนน"):
+    st.markdown(
+        """
+        - **Current-student scale** rewards faculties that can add many students if recruitment improves.
+        - **Low international share** highlights faculties with room to diversify.
+        - **Growth momentum** avoids pushing recruitment into areas already shrinking sharply.
+        - Faculty-level score uses international-program share as a proxy when nationality-by-faculty detail is sparse.
+        """
+    )

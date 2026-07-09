@@ -27,10 +27,49 @@ Playwright is included only as a fallback if the official API becomes unavailabl
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+Playwright is only needed if the API fallback renderer is used:
+
+```bash
 python -m playwright install chromium
 ```
 
-## Reproducible Pipeline
+## Local Run
+
+The repository includes cached raw and processed data, so a fresh clone can open the dashboard immediately:
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL printed by Streamlit, usually:
+
+```text
+http://localhost:8501
+```
+
+## Run on a Local Network
+
+To let another computer on the same Wi-Fi open the dashboard:
+
+```bash
+streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+```
+
+On the other device, open:
+
+```text
+http://HOST_MACHINE_IP:8501
+```
+
+Notes:
+
+- The host computer must stay on and keep Streamlit running.
+- Both devices must be on the same network.
+- The host firewall may need to allow inbound traffic on port `8501`.
+
+## Reproducible Data Pipeline
 
 Run the scraper first. It is cache-first, sequential, and waits between uncached requests.
 
@@ -39,11 +78,18 @@ python -m src.scrape --years-back 5 --delay 1.2
 python -m src.clean
 ```
 
-Then start the dashboard:
+If the official API is unavailable and you need the JavaScript-rendered fallback:
 
 ```bash
-streamlit run app.py
+python -m src.scrape --years-back 5 --delay 1.2 --playwright-fallback
+python -m src.clean
 ```
+
+The app reads relative project paths only:
+
+- `data/raw/`
+- `data/processed/`
+- `.streamlit/config.toml`
 
 ## Project Structure
 
@@ -61,6 +107,7 @@ data/
   processed/
 requirements.txt
 README.md
+.streamlit/config.toml
 ```
 
 ## Dashboard Pages
@@ -79,3 +126,30 @@ README.md
 - Logistic regression uses aggregated faculty-gender admission counts because individual student-level records are not public.
 - International faculty opportunity uses nationality data where available and international-program share as a faculty-level proxy.
 - Scenario estimates are deterministic accounting estimates, not causal forecasts.
+
+## Public Sharing / Instructor Submission
+
+### Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. Go to `https://streamlit.io/cloud`.
+3. Create a new app from the GitHub repository.
+4. Set the main file path to `app.py`.
+5. Deploy.
+
+Deployment checklist:
+
+- `app.py` exists at the repository root.
+- `requirements.txt` exists and includes the Python dependencies.
+- `data/raw/` and `data/processed/` include cached official data, or the scraper can regenerate it.
+- `.streamlit/config.toml` is included for the CMU-inspired theme.
+- No local-only absolute paths are required.
+- No secrets are committed.
+
+If deployed publicly, avoid repeatedly scraping the official CMU API from the hosted app. Keep the cached data in the repo for classroom submission, and rerun the scraper locally only when refreshing the dataset.
+
+## Troubleshooting
+
+- **Missing processed tables**: run `python -m src.scrape --years-back 5 --delay 1.2`, then `python -m src.clean`.
+- **Dashboard opens but charts are empty**: check that `data/processed/*.csv` exists.
+- **Another device cannot open the app**: confirm both devices are on the same Wi-Fi, use the host machine IP address, keep Streamlit running, and allow firewall access to port `8501`.
