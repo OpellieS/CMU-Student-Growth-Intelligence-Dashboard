@@ -58,9 +58,10 @@ def load_data() -> dict[str, pd.DataFrame]:
     data = {name: read_table(name) for name in TABLES}
     critical = ["current_faculty", "admission", "graduates", "history"]
     missing_critical = any(data[name].empty for name in critical)
+    missing_files = [name for name, filename in TABLES.items() if not (PROCESSED_DIR / filename).exists()]
     raw_dir = PROJECT_ROOT / "data" / "raw"
 
-    if missing_critical and any(raw_dir.glob("data_s*.json")):
+    if (missing_critical or missing_files) and any(raw_dir.glob("data_s*.json")):
         try:
             from src.clean import clean
 
